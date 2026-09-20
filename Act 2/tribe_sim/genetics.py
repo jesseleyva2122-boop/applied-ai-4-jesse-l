@@ -27,35 +27,30 @@ class GeneticAlgorithm:
         return fitness_scores
     
     def select_survivors(self, fitness_scores):
-        # STUDENT ASSIGNMENT 3: Implement a better selection mechanism
-        # Current version just takes top 50% - very simple!
-        #
-        # Available information:
-        # - fitness_scores: list of (gatherer, fitness) tuples, sorted by fitness (best first)
-        # - SURVIVAL_RATE: currently 0.05 (top 5% survive)
-        # - len(fitness_scores): total population size
-        #
-        # Alternative selection strategies to consider:
-        # 1. Tournament selection: pick random groups, take best from each
-        # 2. Roulette wheel: probability proportional to fitness
-        # 3. Rank-based: select based on rank, not raw fitness values
-        # 4. Elite + random: guarantee best survive, then random selection
-        # 5. Fitness-proportionate with scaling (linear/exponential)
-        # 6. Hybrid approaches: combine multiple strategies
-        #
-        # Strategy hints:
-        # - Pure elitism (current) can cause premature convergence
-        # - Pure randomness loses good solutions
-        # - Tournament selection often works well (simple + effective)
-        # - Consider selection pressure: too high = less diversity, too low = slow evolution
-        #
-        # Remember: Selection determines which traits get passed to next generation!
-        
-        # Minimal version: just take top 50% of population
-        survival_count = max(1, len(fitness_scores) // 2)  # Top 50%
-        survivors = [gatherer for gatherer, fitness in fitness_scores[:survival_count]]
+        # Hybrid selection: keep a small elite group, then use tournaments.
+        # Elitism preserves the strongest solutions while tournaments maintain
+        # more genetic diversity than simply keeping the top half.
+        if not fitness_scores:
+            return []
+
+        population_size = len(fitness_scores)
+        survival_count = max(2, population_size // 2)
+        elite_count = max(1, int(survival_count * 0.20))
+
+        survivors = [g for g, _ in fitness_scores[:elite_count]]
+        selected_ids = {id(g) for g in survivors}
+
+        while len(survivors) < survival_count:
+            tournament_size = min(4, population_size)
+            competitors = random.sample(fitness_scores, tournament_size)
+            winner, _ = max(competitors, key=lambda item: item[1])
+
+            if id(winner) not in selected_ids:
+                survivors.append(winner)
+                selected_ids.add(id(winner))
+
         return survivors
-    
+
     def crossover(self, parent1, parent2):
         child_genes = {}
         for gene_name in parent1.genes:
@@ -69,31 +64,27 @@ class GeneticAlgorithm:
         return child
     
     def mutate(self, gatherer):
-        # STUDENT ASSIGNMENT 2: Implement a better mutation strategy
-        # Current version just randomly flips genes - very crude!
-        #
-        # Available information:
-        # - gatherer.genes: dict with 'speed', 'caution', 'search_pattern', 'efficiency', 'cooperation'
-        # - GENE_RANGES: dict with (min, max) values for each gene
-        # - MUTATION_RATE: probability of mutation (currently 0.1 = 10%)
-        # - MUTATION_STRENGTH: how much to change (currently 0.2 = ±20%)
-        #
-        # Strategy hints:
-        # 1. Current approach: percentage-based change (good for most genes)
-        # 2. Alternative: Gaussian/normal distribution around current value
-        # 3. Alternative: Fixed step size (add/subtract small amount)
-        # 4. Consider adaptive mutation (larger changes early, smaller later)
-        # 5. Maybe different strategies for different gene types?
-        # 6. Should all genes mutate equally? Maybe cooperation needs special handling?
-        #
-        # Remember: Mutation provides diversity but shouldn't destroy good solutions!
-        
-        for gene_name in gatherer.genes:
+        # Gaussian mutation usually makes small changes and occasionally larger
+        # ones. Mutation becomes more conservative over time so early generations
+        # explore broadly and later generations fine-tune successful traits.
+        adaptive_strength = max(0.05, MUTATION_STRENGTH / math.sqrt(self.generation))
+
+        for gene_name, current_value in gatherer.genes.items():
             if random.random() < MUTATION_RATE:
-                # Minimal version: just flip a coin and randomize the gene completely
                 min_val, max_val = GENE_RANGES[gene_name]
-                gatherer.genes[gene_name] = random.uniform(min_val, max_val)
-    
+                gene_range = max_val - min_val
+                change = random.gauss(0, gene_range * adaptive_strength)
+
+                # Reflect values that cross a boundary instead of immediately
+                # forcing many mutations to the exact minimum or maximum.
+                new_value = current_value + change
+                if new_value < min_val:
+                    new_value = min_val + (min_val - new_value)
+                elif new_value > max_val:
+                    new_value = max_val - (new_value - max_val)
+
+                gatherer.genes[gene_name] = max(min_val, min(max_val, new_value))
+
     def create_next_generation(self, population):
         # Evaluate fitness
         fitness_scores = self.evaluate_fitness(population)
