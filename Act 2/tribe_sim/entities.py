@@ -190,7 +190,23 @@ class Gatherer:
         #
         # Remember: Higher fitness = more likely to reproduce!
         
-        return self.age / 100.0  # Minimal version: just survival time
+        # Balance survival, resource gathering, remaining energy, and gathering efficiency.
+        survival_score = self.age / 100.0
+        food_score = self.food_collected * 2.0
+        energy_score = max(0.0, self.energy) / GATHERER_MAX_ENERGY
+        food_rate = self.food_collected / max(1, self.age) * 100.0
+        alive_bonus = 1.0 if self.alive else 0.0
+
+        # Food is weighted strongly so agents cannot score well by only hiding.
+        # Survival and remaining energy still reward agents that avoid predators.
+        fitness = (
+            0.35 * survival_score
+            + 0.35 * food_score
+            + 0.15 * energy_score
+            + 0.10 * food_rate
+            + 0.05 * alive_bonus
+        )
+        return max(0.0, fitness)
     
     def take_damage(self):
         """Handle death/life loss"""
