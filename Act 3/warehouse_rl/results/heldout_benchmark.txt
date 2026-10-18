@@ -1,0 +1,142 @@
+greedy_std seed=7204 profit=-84.06 steps=3000
+greedy_std seed=7200 profit=-464.17 steps=3000
+greedy_std seed=7206 profit=7302.73 steps=3000
+greedy_std seed=7202 profit=2129.41 steps=3000
+greedy_std seed=7205 profit=2612.26 steps=3000
+greedy_std seed=7203 profit=-43.87 steps=3000
+greedy_std seed=7201 profit=5694.24 steps=3000
+random_std seed=7201 profit=14309.54 steps=3000
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+random_std seed=7200 profit=8082.39 steps=3000
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+greedy_std seed=7208 profit=12125.46 steps=3000
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+greedy_std seed=7209 profit=-1001.05 steps=2975
+random_std seed=7202 profit=1798.69 steps=3000
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+greedy_std seed=7207 profit=8311.47 steps=3000
+random_std seed=7203 profit=12426.98 steps=3000
+fixed_std seed=7200 profit=21853.72 steps=3000
+random_std seed=7205 profit=25389.08 steps=3000
+random_std seed=7206 profit=21230.41 steps=3000
+random_std seed=7207 profit=19835.85 steps=3000
+fixed_std seed=7201 profit=22112.27 steps=3000
+fixed_std seed=7203 profit=20411.16 steps=3000
+fixed_std seed=7204 profit=17954.58 steps=3000
+random_std seed=7209 profit=16402.82 steps=3000
+fixed_std seed=7205 profit=21442.47 steps=3000
+fixed_std seed=7206 profit=22246.15 steps=3000
+fixed_std seed=7207 profit=19839.65 steps=3000
+fixed_std seed=7202 profit=20912.87 steps=3000
+fixed_std seed=7208 profit=22276.98 steps=3000
+fixed_std seed=7209 profit=19687.17 steps=3000
+random_std seed=7208 profit=4364.73 steps=3000
+intelligent_hiring seed=7204 profit=-1009.89 steps=2878
+intelligent_hiring seed=7200 profit=-413.15 steps=3000
+intelligent_hiring seed=7202 profit=-1005.94 steps=2878
+random_std seed=7204 profit=-825.92 steps=3000
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+intelligent_hiring seed=7201 profit=8015.71 steps=3000
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+intelligent_hiring seed=7205 profit=4685.63 steps=3000
+intelligent_hiring seed=7206 profit=4487.82 steps=3000
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+intelligent_queue seed=7201 profit=22187.87 steps=3000
+intelligent_hiring seed=7208 profit=7407.07 steps=3000
+intelligent_queue seed=7202 profit=18654.33 steps=3000
+intelligent_hiring seed=7209 profit=5516.66 steps=3000
+intelligent_queue seed=7203 profit=23217.28 steps=3000
+intelligent_hiring seed=7203 profit=4167.65 steps=3000
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+intelligent_queue seed=7200 profit=25419.66 steps=3000
+intelligent_hiring seed=7207 profit=2429.44 steps=3000
+intelligent_queue seed=7205 profit=25389.08 steps=3000
+intelligent_queue seed=7208 profit=19409.12 steps=3000
+intelligent_queue seed=7206 profit=21230.41 steps=3000
+intelligent_queue seed=7207 profit=19835.85 steps=3000
+intelligent_queue seed=7204 profit=21377.30 steps=3000
+distance_based seed=7206 profit=-1007.03 steps=2897
+intelligent_queue seed=7209 profit=14959.47 steps=3000
+distance_based seed=7205 profit=7769.22 steps=3000
+distance_based seed=7202 profit=290.84 steps=3000
+distance_based seed=7203 profit=645.98 steps=3000
+distance_based seed=7204 profit=84.43 steps=3000
+aggressive_swap seed=7200 profit=21734.09 steps=3000
+aggressive_swap seed=7201 profit=22327.79 steps=3000
+aggressive_swap seed=7202 profit=20805.62 steps=3000
+aggressive_swap seed=7203 profit=20517.74 steps=3000
+aggressive_swap seed=7204 profit=18580.48 steps=3000
+aggressive_swap seed=7205 profit=21586.75 steps=3000
+distance_based seed=7200 profit=4805.60 steps=3000
+distance_based seed=7201 profit=4452.22 steps=3000
+aggressive_swap seed=7206 profit=21500.96 steps=3000
+aggressive_swap seed=7207 profit=19790.35 steps=3000
+original_skeleton seed=7201 profit=-1002.61 steps=283
+aggressive_swap seed=7208 profit=21761.69 steps=3000
+original_skeleton seed=7200 profit=-1008.39 steps=263
+original_skeleton seed=7202 profit=-1015.00 steps=280
+original_skeleton seed=7204 profit=-1000.60 steps=243
+original_skeleton seed=7206 profit=-1007.74 steps=142
+original_skeleton seed=7203 profit=-1030.78 steps=331
+original_skeleton seed=7207 profit=-1006.21 steps=174
+original_skeleton seed=7208 profit=-1010.36 steps=204
+original_skeleton seed=7209 profit=-1004.76 steps=242
+no_layout seed=7200 profit=21207.70 steps=3000
+distance_based seed=7207 profit=6767.46 steps=3000
+no_layout seed=7201 profit=22411.04 steps=3000
+distance_based seed=7209 profit=5346.20 steps=3000
+aggressive_swap seed=7209 profit=19946.00 steps=3000
+original_skeleton seed=7205 profit=-1000.34 steps=480
+no_layout seed=7202 profit=20426.62 steps=3000
+no_layout seed=7204 profit=19422.38 steps=3000
+no_layout seed=7203 profit=21522.51 steps=3000
+no_layout seed=7205 profit=21902.73 steps=3000
+no_layout seed=7209 profit=19872.56 steps=3000
+no_layout seed=7206 profit=21756.36 steps=3000
+skeleton_optimization seed=7200 profit=21589.86 steps=3000
+skeleton_optimization seed=7201 profit=21671.60 steps=3000
+skeleton_optimization seed=7202 profit=21085.69 steps=3000
+no_layout seed=7207 profit=21312.91 steps=3000
+skeleton_optimization seed=7204 profit=19780.20 steps=3000
+no_layout seed=7208 profit=20985.02 steps=3000
+skeleton_optimization seed=7203 profit=21245.36 steps=3000
+skeleton_optimization seed=7205 profit=22565.55 steps=3000
+skeleton_optimization seed=7206 profit=22220.07 steps=3000
+skeleton_optimization seed=7207 profit=21897.04 steps=3000
+skeleton_optimization seed=7209 profit=19372.71 steps=3000
+skeleton_optimization seed=7208 profit=23348.49 steps=3000
+distance_based seed=7208 profit=5905.43 steps=3000
+1 skeleton_optimization 21477.656908595003 859.1093979211574
+2 intelligent_queue 21168.03763191862 2273.6165583956513
+3 no_layout 21081.983750728246 666.5535377198496
+4 fixed_std 20873.703041660527 1008.4202905034883
+5 aggressive_swap 20855.146285653493 824.8560565537877
+6 random_std 12301.457356885974 6273.047927650316
+7 greedy_std 3658.2419444142497 3204.669903667984
+8 distance_based 3506.0345393810103 2276.3342113919425
+9 intelligent_hiring 3428.1004998805356 2379.7574407781526
+10 original_skeleton -1008.68015796243 6.422501642331703

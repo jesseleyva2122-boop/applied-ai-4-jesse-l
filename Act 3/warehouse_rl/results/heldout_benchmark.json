@@ -1,0 +1,988 @@
+{
+  "episode_length": 3000,
+  "seeds": [
+    7200,
+    7201,
+    7202,
+    7203,
+    7204,
+    7205,
+    7206,
+    7207,
+    7208,
+    7209
+  ],
+  "interval_method": "Student t, sample SD ddof=1; independent episode means",
+  "results": {
+    "greedy_std": {
+      "mean_profit": 3658.2419444142497,
+      "total_profit": 36582.4194441425,
+      "ci95_half_width": 3204.669903667984,
+      "episodes": [
+        {
+          "agent": "greedy_std",
+          "seed": 7200,
+          "profit": -464.17414039727026,
+          "completion_rate": 0.2413793103448276,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "greedy_std",
+          "seed": 7201,
+          "profit": 5694.242241683895,
+          "completion_rate": 0.27168576104746317,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "greedy_std",
+          "seed": 7202,
+          "profit": 2129.40527791157,
+          "completion_rate": 0.2693548387096774,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "greedy_std",
+          "seed": 7203,
+          "profit": -43.87306885545169,
+          "completion_rate": 0.2669902912621359,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "greedy_std",
+          "seed": 7204,
+          "profit": -84.05657545378241,
+          "completion_rate": 0.25636942675159236,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "greedy_std",
+          "seed": 7205,
+          "profit": 2612.259489562705,
+          "completion_rate": 0.25945017182130586,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "greedy_std",
+          "seed": 7206,
+          "profit": 7302.734333175412,
+          "completion_rate": 0.3145299145299145,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "greedy_std",
+          "seed": 7207,
+          "profit": 8311.468316476663,
+          "completion_rate": 0.3036565977742448,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "greedy_std",
+          "seed": 7208,
+          "profit": 12125.459167544625,
+          "completion_rate": 0.3475409836065574,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "greedy_std",
+          "seed": 7209,
+          "profit": -1001.0455975058678,
+          "completion_rate": 0.2621359223300971,
+          "steps": 2975,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        }
+      ]
+    },
+    "random_std": {
+      "mean_profit": 12301.457356885974,
+      "total_profit": 123014.57356885975,
+      "ci95_half_width": 6273.047927650316,
+      "episodes": [
+        {
+          "agent": "random_std",
+          "seed": 7200,
+          "profit": 8082.3917825132885,
+          "completion_rate": 0.3079710144927536,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "random_std",
+          "seed": 7201,
+          "profit": 14309.537557430323,
+          "completion_rate": 0.3322422258592471,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "random_std",
+          "seed": 7202,
+          "profit": 1798.6904849379796,
+          "completion_rate": 0.2618657937806874,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "random_std",
+          "seed": 7203,
+          "profit": 12426.976432691434,
+          "completion_rate": 0.3856332703213611,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "random_std",
+          "seed": 7204,
+          "profit": -825.9161751856604,
+          "completion_rate": 0.25245901639344265,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "random_std",
+          "seed": 7205,
+          "profit": 25389.079592997812,
+          "completion_rate": 0.4704724409448819,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "random_std",
+          "seed": 7206,
+          "profit": 21230.40876792698,
+          "completion_rate": 0.4169811320754717,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "random_std",
+          "seed": 7207,
+          "profit": 19835.849552851472,
+          "completion_rate": 0.39285714285714285,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "random_std",
+          "seed": 7208,
+          "profit": 4364.732045324184,
+          "completion_rate": 0.2778675282714055,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "random_std",
+          "seed": 7209,
+          "profit": 16402.823527371926,
+          "completion_rate": 0.3543441226575809,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        }
+      ]
+    },
+    "fixed_std": {
+      "mean_profit": 20873.703041660527,
+      "total_profit": 208737.03041660527,
+      "ci95_half_width": 1008.4202905034883,
+      "episodes": [
+        {
+          "agent": "fixed_std",
+          "seed": 7200,
+          "profit": 21853.715634908982,
+          "completion_rate": 0.38190954773869346,
+          "steps": 3000,
+          "relocations_started": 12,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "fixed_std",
+          "seed": 7201,
+          "profit": 22112.269331262953,
+          "completion_rate": 0.35279805352798055,
+          "steps": 3000,
+          "relocations_started": 14,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "fixed_std",
+          "seed": 7202,
+          "profit": 20912.87387807431,
+          "completion_rate": 0.33569739952718675,
+          "steps": 3000,
+          "relocations_started": 11,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "fixed_std",
+          "seed": 7203,
+          "profit": 20411.159421894306,
+          "completion_rate": 0.36,
+          "steps": 3000,
+          "relocations_started": 15,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "fixed_std",
+          "seed": 7204,
+          "profit": 17954.582984407414,
+          "completion_rate": 0.3213429256594724,
+          "steps": 3000,
+          "relocations_started": 12,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "fixed_std",
+          "seed": 7205,
+          "profit": 21442.471411489023,
+          "completion_rate": 0.35218508997429304,
+          "steps": 3000,
+          "relocations_started": 13,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "fixed_std",
+          "seed": 7206,
+          "profit": 22246.148870460984,
+          "completion_rate": 0.35731414868105515,
+          "steps": 3000,
+          "relocations_started": 11,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "fixed_std",
+          "seed": 7207,
+          "profit": 19839.65385271588,
+          "completion_rate": 0.3058823529411765,
+          "steps": 3000,
+          "relocations_started": 11,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "fixed_std",
+          "seed": 7208,
+          "profit": 22276.98474963082,
+          "completion_rate": 0.37404580152671757,
+          "steps": 3000,
+          "relocations_started": 14,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "fixed_std",
+          "seed": 7209,
+          "profit": 19687.170281760566,
+          "completion_rate": 0.3673469387755102,
+          "steps": 3000,
+          "relocations_started": 12,
+          "layout_decisions": 0
+        }
+      ]
+    },
+    "intelligent_hiring": {
+      "mean_profit": 3428.1004998805356,
+      "total_profit": 34281.00499880536,
+      "ci95_half_width": 2379.7574407781526,
+      "episodes": [
+        {
+          "agent": "intelligent_hiring",
+          "seed": 7200,
+          "profit": -413.1476740112854,
+          "completion_rate": 0.25963149078726966,
+          "steps": 3000,
+          "relocations_started": 27,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_hiring",
+          "seed": 7201,
+          "profit": 8015.708121107629,
+          "completion_rate": 0.30514096185737977,
+          "steps": 3000,
+          "relocations_started": 28,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_hiring",
+          "seed": 7202,
+          "profit": -1005.9368504943078,
+          "completion_rate": 0.23688663282571912,
+          "steps": 2878,
+          "relocations_started": 26,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_hiring",
+          "seed": 7203,
+          "profit": 4167.652519059926,
+          "completion_rate": 0.3233333333333333,
+          "steps": 3000,
+          "relocations_started": 28,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_hiring",
+          "seed": 7204,
+          "profit": -1009.8891091622822,
+          "completion_rate": 0.2504258943781942,
+          "steps": 2878,
+          "relocations_started": 25,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_hiring",
+          "seed": 7205,
+          "profit": 4685.625012125532,
+          "completion_rate": 0.3076923076923077,
+          "steps": 3000,
+          "relocations_started": 22,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_hiring",
+          "seed": 7206,
+          "profit": 4487.823833387965,
+          "completion_rate": 0.30085470085470084,
+          "steps": 3000,
+          "relocations_started": 26,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_hiring",
+          "seed": 7207,
+          "profit": 2429.440926608389,
+          "completion_rate": 0.26916802610114193,
+          "steps": 3000,
+          "relocations_started": 28,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_hiring",
+          "seed": 7208,
+          "profit": 7407.072322366039,
+          "completion_rate": 0.3321917808219178,
+          "steps": 3000,
+          "relocations_started": 24,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_hiring",
+          "seed": 7209,
+          "profit": 5516.6558978177545,
+          "completion_rate": 0.3152,
+          "steps": 3000,
+          "relocations_started": 21,
+          "layout_decisions": 0
+        }
+      ]
+    },
+    "intelligent_queue": {
+      "mean_profit": 21168.03763191862,
+      "total_profit": 211680.3763191862,
+      "ci95_half_width": 2273.6165583956513,
+      "episodes": [
+        {
+          "agent": "intelligent_queue",
+          "seed": 7200,
+          "profit": 25419.660940244583,
+          "completion_rate": 0.45185185185185184,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_queue",
+          "seed": 7201,
+          "profit": 22187.874781844253,
+          "completion_rate": 0.4,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_queue",
+          "seed": 7202,
+          "profit": 18654.32898021338,
+          "completion_rate": 0.38517179023508136,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_queue",
+          "seed": 7203,
+          "profit": 23217.275687284095,
+          "completion_rate": 0.43669724770642204,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_queue",
+          "seed": 7204,
+          "profit": 21377.30167252957,
+          "completion_rate": 0.4296160877513711,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_queue",
+          "seed": 7205,
+          "profit": 25389.079592997812,
+          "completion_rate": 0.4704724409448819,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_queue",
+          "seed": 7206,
+          "profit": 21230.40876792698,
+          "completion_rate": 0.4169811320754717,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_queue",
+          "seed": 7207,
+          "profit": 19835.849552851472,
+          "completion_rate": 0.39285714285714285,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_queue",
+          "seed": 7208,
+          "profit": 19409.12355298065,
+          "completion_rate": 0.428,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "intelligent_queue",
+          "seed": 7209,
+          "profit": 14959.472790313393,
+          "completion_rate": 0.3688663282571912,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        }
+      ]
+    },
+    "distance_based": {
+      "mean_profit": 3506.0345393810103,
+      "total_profit": 35060.3453938101,
+      "ci95_half_width": 2276.3342113919425,
+      "episodes": [
+        {
+          "agent": "distance_based",
+          "seed": 7200,
+          "profit": 4805.603791923908,
+          "completion_rate": 0.29983525535420097,
+          "steps": 3000,
+          "relocations_started": 27,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "distance_based",
+          "seed": 7201,
+          "profit": 4452.220537612608,
+          "completion_rate": 0.2722689075630252,
+          "steps": 3000,
+          "relocations_started": 28,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "distance_based",
+          "seed": 7202,
+          "profit": 290.8426021017042,
+          "completion_rate": 0.26547231270358307,
+          "steps": 3000,
+          "relocations_started": 22,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "distance_based",
+          "seed": 7203,
+          "profit": 645.9793255811627,
+          "completion_rate": 0.2783333333333333,
+          "steps": 3000,
+          "relocations_started": 27,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "distance_based",
+          "seed": 7204,
+          "profit": 84.42852515143932,
+          "completion_rate": 0.2724306688417618,
+          "steps": 3000,
+          "relocations_started": 25,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "distance_based",
+          "seed": 7205,
+          "profit": 7769.215602109955,
+          "completion_rate": 0.328125,
+          "steps": 3000,
+          "relocations_started": 28,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "distance_based",
+          "seed": 7206,
+          "profit": -1007.0339151526315,
+          "completion_rate": 0.225,
+          "steps": 2897,
+          "relocations_started": 27,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "distance_based",
+          "seed": 7207,
+          "profit": 6767.456493743127,
+          "completion_rate": 0.2961165048543689,
+          "steps": 3000,
+          "relocations_started": 27,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "distance_based",
+          "seed": 7208,
+          "profit": 5905.433018633062,
+          "completion_rate": 0.3167808219178082,
+          "steps": 3000,
+          "relocations_started": 24,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "distance_based",
+          "seed": 7209,
+          "profit": 5346.199412105766,
+          "completion_rate": 0.3113964686998395,
+          "steps": 3000,
+          "relocations_started": 25,
+          "layout_decisions": 0
+        }
+      ]
+    },
+    "aggressive_swap": {
+      "mean_profit": 20855.146285653493,
+      "total_profit": 208551.46285653493,
+      "ci95_half_width": 824.8560565537877,
+      "episodes": [
+        {
+          "agent": "aggressive_swap",
+          "seed": 7200,
+          "profit": 21734.087150655694,
+          "completion_rate": 0.3793969849246231,
+          "steps": 3000,
+          "relocations_started": 32,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "aggressive_swap",
+          "seed": 7201,
+          "profit": 22327.79335472575,
+          "completion_rate": 0.35523114355231145,
+          "steps": 3000,
+          "relocations_started": 32,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "aggressive_swap",
+          "seed": 7202,
+          "profit": 20805.624764461765,
+          "completion_rate": 0.3333333333333333,
+          "steps": 3000,
+          "relocations_started": 32,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "aggressive_swap",
+          "seed": 7203,
+          "profit": 20517.735481007505,
+          "completion_rate": 0.3625,
+          "steps": 3000,
+          "relocations_started": 32,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "aggressive_swap",
+          "seed": 7204,
+          "profit": 18580.47546691994,
+          "completion_rate": 0.3381294964028777,
+          "steps": 3000,
+          "relocations_started": 30,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "aggressive_swap",
+          "seed": 7205,
+          "profit": 21586.745293594013,
+          "completion_rate": 0.35475578406169667,
+          "steps": 3000,
+          "relocations_started": 31,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "aggressive_swap",
+          "seed": 7206,
+          "profit": 21500.955332680558,
+          "completion_rate": 0.3405275779376499,
+          "steps": 3000,
+          "relocations_started": 32,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "aggressive_swap",
+          "seed": 7207,
+          "profit": 19790.354460906325,
+          "completion_rate": 0.3058823529411765,
+          "steps": 3000,
+          "relocations_started": 32,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "aggressive_swap",
+          "seed": 7208,
+          "profit": 21761.69344226383,
+          "completion_rate": 0.361323155216285,
+          "steps": 3000,
+          "relocations_started": 32,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "aggressive_swap",
+          "seed": 7209,
+          "profit": 19945.99810931953,
+          "completion_rate": 0.375,
+          "steps": 3000,
+          "relocations_started": 30,
+          "layout_decisions": 0
+        }
+      ]
+    },
+    "original_skeleton": {
+      "mean_profit": -1008.68015796243,
+      "total_profit": -10086.8015796243,
+      "ci95_half_width": 6.422501642331703,
+      "episodes": [
+        {
+          "agent": "original_skeleton",
+          "seed": 7200,
+          "profit": -1008.3934317705751,
+          "completion_rate": 0.35365853658536583,
+          "steps": 263,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "original_skeleton",
+          "seed": 7201,
+          "profit": -1002.6121142091041,
+          "completion_rate": 0.3218390804597701,
+          "steps": 283,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "original_skeleton",
+          "seed": 7202,
+          "profit": -1015.0031457040235,
+          "completion_rate": 0.35365853658536583,
+          "steps": 280,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "original_skeleton",
+          "seed": 7203,
+          "profit": -1030.783789741898,
+          "completion_rate": 0.4090909090909091,
+          "steps": 331,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "original_skeleton",
+          "seed": 7204,
+          "profit": -1000.6004375524499,
+          "completion_rate": 0.2911392405063291,
+          "steps": 243,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "original_skeleton",
+          "seed": 7205,
+          "profit": -1000.3417233819571,
+          "completion_rate": 0.3381294964028777,
+          "steps": 480,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "original_skeleton",
+          "seed": 7206,
+          "profit": -1007.7419312790533,
+          "completion_rate": 0.14285714285714285,
+          "steps": 142,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "original_skeleton",
+          "seed": 7207,
+          "profit": -1006.2056312755569,
+          "completion_rate": 0.288135593220339,
+          "steps": 174,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "original_skeleton",
+          "seed": 7208,
+          "profit": -1010.358492470049,
+          "completion_rate": 0.2631578947368421,
+          "steps": 204,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "original_skeleton",
+          "seed": 7209,
+          "profit": -1004.7608822396317,
+          "completion_rate": 0.2619047619047619,
+          "steps": 242,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        }
+      ]
+    },
+    "no_layout": {
+      "mean_profit": 21081.983750728246,
+      "total_profit": 210819.83750728247,
+      "ci95_half_width": 666.5535377198496,
+      "episodes": [
+        {
+          "agent": "no_layout",
+          "seed": 7200,
+          "profit": 21207.700120540972,
+          "completion_rate": 0.37220843672456577,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "no_layout",
+          "seed": 7201,
+          "profit": 22411.04087397056,
+          "completion_rate": 0.3740831295843521,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "no_layout",
+          "seed": 7202,
+          "profit": 20426.61788516217,
+          "completion_rate": 0.32325581395348835,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "no_layout",
+          "seed": 7203,
+          "profit": 21522.50819716918,
+          "completion_rate": 0.3848101265822785,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "no_layout",
+          "seed": 7204,
+          "profit": 19422.382140414058,
+          "completion_rate": 0.360381861575179,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "no_layout",
+          "seed": 7205,
+          "profit": 21902.733712926492,
+          "completion_rate": 0.36363636363636365,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "no_layout",
+          "seed": 7206,
+          "profit": 21756.36157265341,
+          "completion_rate": 0.3333333333333333,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "no_layout",
+          "seed": 7207,
+          "profit": 21312.912603712546,
+          "completion_rate": 0.32558139534883723,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "no_layout",
+          "seed": 7208,
+          "profit": 20985.017007637292,
+          "completion_rate": 0.3493670886075949,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "no_layout",
+          "seed": 7209,
+          "profit": 19872.56339309576,
+          "completion_rate": 0.38308457711442784,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        }
+      ]
+    },
+    "skeleton_optimization": {
+      "mean_profit": 21477.656908595003,
+      "total_profit": 214776.56908595003,
+      "ci95_half_width": 859.1093979211574,
+      "episodes": [
+        {
+          "agent": "skeleton_optimization",
+          "seed": 7200,
+          "profit": 21589.863728375385,
+          "completion_rate": 0.3802469135802469,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        },
+        {
+          "agent": "skeleton_optimization",
+          "seed": 7201,
+          "profit": 21671.604598849786,
+          "completion_rate": 0.3569682151589242,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        },
+        {
+          "agent": "skeleton_optimization",
+          "seed": 7202,
+          "profit": 21085.687650284523,
+          "completion_rate": 0.3372093023255814,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        },
+        {
+          "agent": "skeleton_optimization",
+          "seed": 7203,
+          "profit": 21245.361324251062,
+          "completion_rate": 0.379746835443038,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        },
+        {
+          "agent": "skeleton_optimization",
+          "seed": 7204,
+          "profit": 19780.19826529043,
+          "completion_rate": 0.36754176610978523,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        },
+        {
+          "agent": "skeleton_optimization",
+          "seed": 7205,
+          "profit": 22565.549866834608,
+          "completion_rate": 0.3787878787878788,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        },
+        {
+          "agent": "skeleton_optimization",
+          "seed": 7206,
+          "profit": 22220.065974002446,
+          "completion_rate": 0.3595238095238095,
+          "steps": 3000,
+          "relocations_started": 7,
+          "layout_decisions": 7
+        },
+        {
+          "agent": "skeleton_optimization",
+          "seed": 7207,
+          "profit": 21897.04401850608,
+          "completion_rate": 0.33488372093023255,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        },
+        {
+          "agent": "skeleton_optimization",
+          "seed": 7208,
+          "profit": 23348.488560277812,
+          "completion_rate": 0.39593908629441626,
+          "steps": 3000,
+          "relocations_started": 10,
+          "layout_decisions": 10
+        },
+        {
+          "agent": "skeleton_optimization",
+          "seed": 7209,
+          "profit": 19372.705099277882,
+          "completion_rate": 0.38082901554404147,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        }
+      ]
+    }
+  }
+}

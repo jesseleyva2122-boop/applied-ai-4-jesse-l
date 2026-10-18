@@ -1,0 +1,18 @@
+Running warehouse simulation with aggressive_swap agent...
+
+--- Episode 1/1 ---
+Step 500: Profit=$2666.53, Queue=49, Employees=6
+Step 1000: Profit=$5849.11, Queue=79, Employees=6
+Step 1500: Profit=$9450.12, Queue=134, Employees=6
+Step 2000: Profit=$13696.28, Queue=203, Employees=6
+Episode 1 completed!
+  Total Reward: 13696.28
+  Final Profit: $13696.28
+  Completion Rate: 29.5%
+  Orders Completed: 88
+  Orders Cancelled: 7
+
+Displaying analytics for aggressive_swap agent...
+
+Analytics gallery displayed for aggressive_swap
+Click on any thumbnail to view the full chart, or use navigation buttons.

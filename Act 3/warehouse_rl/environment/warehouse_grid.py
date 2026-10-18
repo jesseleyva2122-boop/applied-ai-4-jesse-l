@@ -321,13 +321,10 @@ class WarehouseGrid:
         return item if item != -1 else None
     
     def find_item_locations(self, item_type: int) -> List[Tuple[int, int]]:
-        locations = []
-        for y in range(self.height):
-            for x in range(self.width):
-                if self.item_grid[y, x] == item_type:
-                    locations.append((x, y))
-        return locations
-    
+        # Equivalent row-major scan, vectorized for repeated routing queries.
+        ys, xs = np.where(self.item_grid == item_type)
+        return list(zip(xs.tolist(), ys.tolist()))
+
     def is_valid_position(self, x: int, y: int) -> bool:
         return 0 <= x < self.width and 0 <= y < self.height
     

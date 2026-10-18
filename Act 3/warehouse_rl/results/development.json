@@ -1,0 +1,181 @@
+{
+  "episode_length": 3000,
+  "seeds": [
+    6100,
+    6101,
+    6102
+  ],
+  "interval_method": "Student t, sample SD ddof=1; independent episode means",
+  "results": {
+    "original_skeleton": {
+      "mean_profit": -1014.7364944592146,
+      "total_profit": -3044.2094833776437,
+      "ci95_half_width": 9.832983856967724,
+      "episodes": [
+        {
+          "agent": "original_skeleton",
+          "seed": 6100,
+          "profit": -1013.7501242814019,
+          "completion_rate": 0.3958333333333333,
+          "steps": 382,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "original_skeleton",
+          "seed": 6101,
+          "profit": -1011.3646422935434,
+          "completion_rate": 0.2,
+          "steps": 143,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "original_skeleton",
+          "seed": 6102,
+          "profit": -1019.0947168026985,
+          "completion_rate": 0.296,
+          "steps": 434,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        }
+      ]
+    },
+    "no_layout": {
+      "mean_profit": 20647.777433464493,
+      "total_profit": 61943.33230039348,
+      "ci95_half_width": 2019.2850096526886,
+      "episodes": [
+        {
+          "agent": "no_layout",
+          "seed": 6100,
+          "profit": 19943.33858930989,
+          "completion_rate": 0.3673469387755102,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "no_layout",
+          "seed": 6101,
+          "profit": 21537.197640084654,
+          "completion_rate": 0.34793187347931875,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        },
+        {
+          "agent": "no_layout",
+          "seed": 6102,
+          "profit": 20462.79607099894,
+          "completion_rate": 0.34057971014492755,
+          "steps": 3000,
+          "relocations_started": 0,
+          "layout_decisions": 0
+        }
+      ]
+    },
+    "frequency_only": {
+      "mean_profit": 21908.969216806636,
+      "total_profit": 65726.9076504199,
+      "ci95_half_width": 3084.76895245823,
+      "episodes": [
+        {
+          "agent": "frequency_only",
+          "seed": 6100,
+          "profit": 20780.4748232106,
+          "completion_rate": 0.3877551020408163,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        },
+        {
+          "agent": "frequency_only",
+          "seed": 6101,
+          "profit": 23239.316467188786,
+          "completion_rate": 0.39172749391727496,
+          "steps": 3000,
+          "relocations_started": 8,
+          "layout_decisions": 8
+        },
+        {
+          "agent": "frequency_only",
+          "seed": 6102,
+          "profit": 21707.116360020522,
+          "completion_rate": 0.3671497584541063,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        }
+      ]
+    },
+    "association": {
+      "mean_profit": 21871.858066553494,
+      "total_profit": 65615.57419966048,
+      "ci95_half_width": 3031.9130815758,
+      "episodes": [
+        {
+          "agent": "association",
+          "seed": 6100,
+          "profit": 20494.40144416969,
+          "completion_rate": 0.3852040816326531,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        },
+        {
+          "agent": "association",
+          "seed": 6101,
+          "profit": 22818.66155105983,
+          "completion_rate": 0.3771289537712895,
+          "steps": 3000,
+          "relocations_started": 8,
+          "layout_decisions": 8
+        },
+        {
+          "agent": "association",
+          "seed": 6102,
+          "profit": 22302.511204430964,
+          "completion_rate": 0.38405797101449274,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        }
+      ]
+    },
+    "skeleton_optimization": {
+      "mean_profit": 20415.304339319682,
+      "total_profit": 61245.91301795905,
+      "ci95_half_width": 1784.7934077246587,
+      "episodes": [
+        {
+          "agent": "skeleton_optimization",
+          "seed": 6100,
+          "profit": 21244.76657993817,
+          "completion_rate": 0.3979591836734694,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        },
+        {
+          "agent": "skeleton_optimization",
+          "seed": 6101,
+          "profit": 19986.356923748386,
+          "completion_rate": 0.31873479318734793,
+          "steps": 3000,
+          "relocations_started": 7,
+          "layout_decisions": 7
+        },
+        {
+          "agent": "skeleton_optimization",
+          "seed": 6102,
+          "profit": 20014.789514272496,
+          "completion_rate": 0.3333333333333333,
+          "steps": 3000,
+          "relocations_started": 9,
+          "layout_decisions": 9
+        }
+      ]
+    }
+  }
+}

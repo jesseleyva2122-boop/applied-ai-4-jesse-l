@@ -1,0 +1,10 @@
+test_busy_manager_and_cooldown (test_layout_optimizer.LayoutTests.test_busy_manager_and_cooldown) ... ok
+test_displaced_hot_item_not_sacrificed (test_layout_optimizer.LayoutTests.test_displaced_hot_item_not_sacrificed) ... ok
+test_environment_action_and_metrics (test_layout_optimizer.LayoutTests.test_environment_action_and_metrics) ... ok
+test_no_manager_or_no_demand (test_layout_optimizer.LayoutTests.test_no_manager_or_no_demand) ... ok
+test_profitable_swap_and_bounds (test_layout_optimizer.LayoutTests.test_profitable_swap_and_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.767s
+
+OK
