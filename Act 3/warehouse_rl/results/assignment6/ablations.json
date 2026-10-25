@@ -1,0 +1,885 @@
+{
+  "episode_length": 3000,
+  "seeds": [
+    9100,
+    9101,
+    9102,
+    9103,
+    9104,
+    9105,
+    9106,
+    9107,
+    9108,
+    9109
+  ],
+  "method": "Independent fresh environments; Python/NumPy seeded; Student t with sample SD; demand adapts to policy, so common seeds are not identical orders.",
+  "results": {
+    "staffing_only": {
+      "mean_profit": 44101.96378097,
+      "total_profit": 441019.6378097,
+      "ci95_half_width": 1583.4902974146428,
+      "ci95": [
+        42518.47348355535,
+        45685.454078384646
+      ],
+      "mean_completion_rate": 0.6972608919144578,
+      "episodes": [
+        {
+          "agent": "staffing_only",
+          "seed": 9100,
+          "profit": 47607.33086861294,
+          "revenue": 66038.18086861314,
+          "costs": 18122.499999999738,
+          "completion_rate": 0.6656934306569343,
+          "orders_completed": 456,
+          "steps": 3000,
+          "peak_employees": 13,
+          "final_workers": 12,
+          "staffing_actions": [
+            {
+              "time": 25,
+              "action": 4
+            },
+            {
+              "time": 65,
+              "action": 4
+            },
+            {
+              "time": 105,
+              "action": 3
+            },
+            {
+              "time": 145,
+              "action": 4
+            },
+            {
+              "time": 185,
+              "action": 4
+            },
+            {
+              "time": 225,
+              "action": 4
+            },
+            {
+              "time": 265,
+              "action": 4
+            },
+            {
+              "time": 305,
+              "action": 4
+            },
+            {
+              "time": 345,
+              "action": 4
+            },
+            {
+              "time": 385,
+              "action": 4
+            }
+          ],
+          "relocations": 14,
+          "wall_seconds": 13.942980544999955
+        },
+        {
+          "agent": "staffing_only",
+          "seed": 9101,
+          "profit": 44194.0625314585,
+          "revenue": 62736.41253145857,
+          "costs": 18206.999999999756,
+          "completion_rate": 0.6850152905198776,
+          "orders_completed": 448,
+          "steps": 3000,
+          "peak_employees": 13,
+          "final_workers": 12,
+          "staffing_actions": [
+            {
+              "time": 6,
+              "action": 4
+            },
+            {
+              "time": 46,
+              "action": 4
+            },
+            {
+              "time": 86,
+              "action": 4
+            },
+            {
+              "time": 126,
+              "action": 3
+            },
+            {
+              "time": 166,
+              "action": 4
+            },
+            {
+              "time": 206,
+              "action": 4
+            },
+            {
+              "time": 246,
+              "action": 4
+            },
+            {
+              "time": 286,
+              "action": 4
+            },
+            {
+              "time": 326,
+              "action": 4
+            },
+            {
+              "time": 366,
+              "action": 4
+            }
+          ],
+          "relocations": 14,
+          "wall_seconds": 24.82127962800007
+        },
+        {
+          "agent": "staffing_only",
+          "seed": 9102,
+          "profit": 44851.96483900426,
+          "revenue": 63338.41483900426,
+          "costs": 18190.499999999753,
+          "completion_rate": 0.7087827426810478,
+          "orders_completed": 460,
+          "steps": 3000,
+          "peak_employees": 13,
+          "final_workers": 12,
+          "staffing_actions": [
+            {
+              "time": 9,
+              "action": 4
+            },
+            {
+              "time": 49,
+              "action": 4
+            },
+            {
+              "time": 89,
+              "action": 4
+            },
+            {
+              "time": 129,
+              "action": 3
+            },
+            {
+              "time": 169,
+              "action": 4
+            },
+            {
+              "time": 209,
+              "action": 4
+            },
+            {
+              "time": 249,
+              "action": 4
+            },
+            {
+              "time": 289,
+              "action": 4
+            },
+            {
+              "time": 329,
+              "action": 4
+            },
+            {
+              "time": 369,
+              "action": 4
+            }
+          ],
+          "relocations": 14,
+          "wall_seconds": 42.13121388800005
+        },
+        {
+          "agent": "staffing_only",
+          "seed": 9103,
+          "profit": 43590.88838921159,
+          "revenue": 61963.8883892118,
+          "costs": 18053.999999999724,
+          "completion_rate": 0.7348837209302326,
+          "orders_completed": 474,
+          "steps": 3000,
+          "peak_employees": 13,
+          "final_workers": 12,
+          "staffing_actions": [
+            {
+              "time": 11,
+              "action": 4
+            },
+            {
+              "time": 51,
+              "action": 4
+            },
+            {
+              "time": 91,
+              "action": 4
+            },
+            {
+              "time": 131,
+              "action": 3
+            },
+            {
+              "time": 174,
+              "action": 4
+            },
+            {
+              "time": 214,
+              "action": 4
+            },
+            {
+              "time": 254,
+              "action": 4
+            },
+            {
+              "time": 299,
+              "action": 4
+            },
+            {
+              "time": 339,
+              "action": 4
+            },
+            {
+              "time": 597,
+              "action": 4
+            }
+          ],
+          "relocations": 17,
+          "wall_seconds": 42.05926173099999
+        },
+        {
+          "agent": "staffing_only",
+          "seed": 9104,
+          "profit": 41316.21248787838,
+          "revenue": 59822.61248787838,
+          "costs": 18146.49999999974,
+          "completion_rate": 0.6706586826347305,
+          "orders_completed": 448,
+          "steps": 3000,
+          "peak_employees": 13,
+          "final_workers": 12,
+          "staffing_actions": [
+            {
+              "time": 17,
+              "action": 4
+            },
+            {
+              "time": 57,
+              "action": 4
+            },
+            {
+              "time": 97,
+              "action": 4
+            },
+            {
+              "time": 137,
+              "action": 3
+            },
+            {
+              "time": 177,
+              "action": 4
+            },
+            {
+              "time": 217,
+              "action": 4
+            },
+            {
+              "time": 257,
+              "action": 4
+            },
+            {
+              "time": 297,
+              "action": 4
+            },
+            {
+              "time": 337,
+              "action": 4
+            },
+            {
+              "time": 377,
+              "action": 4
+            }
+          ],
+          "relocations": 15,
+          "wall_seconds": 28.314987674000008
+        },
+        {
+          "agent": "staffing_only",
+          "seed": 9105,
+          "profit": 45282.987812090985,
+          "revenue": 63791.03781209116,
+          "costs": 18173.99999999975,
+          "completion_rate": 0.6946902654867256,
+          "orders_completed": 471,
+          "steps": 3000,
+          "peak_employees": 13,
+          "final_workers": 12,
+          "staffing_actions": [
+            {
+              "time": 12,
+              "action": 4
+            },
+            {
+              "time": 52,
+              "action": 4
+            },
+            {
+              "time": 92,
+              "action": 4
+            },
+            {
+              "time": 132,
+              "action": 3
+            },
+            {
+              "time": 172,
+              "action": 4
+            },
+            {
+              "time": 212,
+              "action": 4
+            },
+            {
+              "time": 252,
+              "action": 4
+            },
+            {
+              "time": 292,
+              "action": 4
+            },
+            {
+              "time": 332,
+              "action": 4
+            },
+            {
+              "time": 372,
+              "action": 4
+            }
+          ],
+          "relocations": 13,
+          "wall_seconds": 23.788589188999936
+        },
+        {
+          "agent": "staffing_only",
+          "seed": 9106,
+          "profit": 45933.768994768005,
+          "revenue": 64449.818994768146,
+          "costs": 18201.499999999756,
+          "completion_rate": 0.691044776119403,
+          "orders_completed": 463,
+          "steps": 3000,
+          "peak_employees": 13,
+          "final_workers": 12,
+          "staffing_actions": [
+            {
+              "time": 7,
+              "action": 4
+            },
+            {
+              "time": 47,
+              "action": 4
+            },
+            {
+              "time": 87,
+              "action": 4
+            },
+            {
+              "time": 127,
+              "action": 3
+            },
+            {
+              "time": 167,
+              "action": 4
+            },
+            {
+              "time": 207,
+              "action": 4
+            },
+            {
+              "time": 247,
+              "action": 4
+            },
+            {
+              "time": 287,
+              "action": 4
+            },
+            {
+              "time": 327,
+              "action": 4
+            },
+            {
+              "time": 367,
+              "action": 4
+            }
+          ],
+          "relocations": 14,
+          "wall_seconds": 26.57169827200005
+        },
+        {
+          "agent": "staffing_only",
+          "seed": 9107,
+          "profit": 45076.68393921169,
+          "revenue": 63578.58393921165,
+          "costs": 18168.49999999975,
+          "completion_rate": 0.6880733944954128,
+          "orders_completed": 450,
+          "steps": 3000,
+          "peak_employees": 13,
+          "final_workers": 12,
+          "staffing_actions": [
+            {
+              "time": 13,
+              "action": 4
+            },
+            {
+              "time": 53,
+              "action": 4
+            },
+            {
+              "time": 93,
+              "action": 4
+            },
+            {
+              "time": 133,
+              "action": 3
+            },
+            {
+              "time": 173,
+              "action": 4
+            },
+            {
+              "time": 213,
+              "action": 4
+            },
+            {
+              "time": 253,
+              "action": 4
+            },
+            {
+              "time": 293,
+              "action": 4
+            },
+            {
+              "time": 333,
+              "action": 4
+            },
+            {
+              "time": 373,
+              "action": 4
+            }
+          ],
+          "relocations": 15,
+          "wall_seconds": 27.02228286600007
+        },
+        {
+          "agent": "staffing_only",
+          "seed": 9108,
+          "profit": 43136.35320588263,
+          "revenue": 61673.20320588296,
+          "costs": 18173.99999999975,
+          "completion_rate": 0.7105666156202144,
+          "orders_completed": 464,
+          "steps": 3000,
+          "peak_employees": 13,
+          "final_workers": 12,
+          "staffing_actions": [
+            {
+              "time": 12,
+              "action": 4
+            },
+            {
+              "time": 52,
+              "action": 4
+            },
+            {
+              "time": 92,
+              "action": 4
+            },
+            {
+              "time": 132,
+              "action": 3
+            },
+            {
+              "time": 172,
+              "action": 4
+            },
+            {
+              "time": 212,
+              "action": 4
+            },
+            {
+              "time": 252,
+              "action": 4
+            },
+            {
+              "time": 292,
+              "action": 4
+            },
+            {
+              "time": 332,
+              "action": 4
+            },
+            {
+              "time": 372,
+              "action": 4
+            }
+          ],
+          "relocations": 14,
+          "wall_seconds": 13.813195642999972
+        },
+        {
+          "agent": "staffing_only",
+          "seed": 9109,
+          "profit": 40029.38474158096,
+          "revenue": 57383.33474158129,
+          "costs": 17075.999999999513,
+          "completion_rate": 0.7232,
+          "orders_completed": 452,
+          "steps": 3000,
+          "peak_employees": 13,
+          "final_workers": 12,
+          "staffing_actions": [
+            {
+              "time": 16,
+              "action": 4
+            },
+            {
+              "time": 56,
+              "action": 4
+            },
+            {
+              "time": 96,
+              "action": 4
+            },
+            {
+              "time": 136,
+              "action": 3
+            },
+            {
+              "time": 176,
+              "action": 4
+            },
+            {
+              "time": 365,
+              "action": 4
+            },
+            {
+              "time": 598,
+              "action": 4
+            },
+            {
+              "time": 825,
+              "action": 4
+            },
+            {
+              "time": 902,
+              "action": 4
+            },
+            {
+              "time": 942,
+              "action": 4
+            }
+          ],
+          "relocations": 16,
+          "wall_seconds": 26.32047215500006
+        }
+      ],
+      "rank": 1
+    },
+    "routing_only": {
+      "mean_profit": 21627.506975354176,
+      "total_profit": 216275.06975354176,
+      "ci95_half_width": 1021.9049784550042,
+      "ci95": [
+        20605.60199689917,
+        22649.41195380918
+      ],
+      "mean_completion_rate": 0.3928813646404873,
+      "episodes": [
+        {
+          "agent": "routing_only",
+          "seed": 9100,
+          "profit": 24637.20045353554,
+          "revenue": 31580.900453534487,
+          "costs": 6899.400000000355,
+          "completion_rate": 0.3524229074889868,
+          "orders_completed": 160,
+          "steps": 3000,
+          "peak_employees": 6,
+          "final_workers": 5,
+          "staffing_actions": [
+            {
+              "time": 0,
+              "action": 3
+            },
+            {
+              "time": 1,
+              "action": 1
+            },
+            {
+              "time": 2,
+              "action": 1
+            }
+          ],
+          "relocations": 9,
+          "wall_seconds": 14.40322138800002
+        },
+        {
+          "agent": "routing_only",
+          "seed": 9101,
+          "profit": 20343.481646710025,
+          "revenue": 27300.881646709335,
+          "costs": 6899.400000000355,
+          "completion_rate": 0.371007371007371,
+          "orders_completed": 151,
+          "steps": 3000,
+          "peak_employees": 6,
+          "final_workers": 5,
+          "staffing_actions": [
+            {
+              "time": 0,
+              "action": 3
+            },
+            {
+              "time": 1,
+              "action": 1
+            },
+            {
+              "time": 2,
+              "action": 1
+            }
+          ],
+          "relocations": 9,
+          "wall_seconds": 11.85663024500002
+        },
+        {
+          "agent": "routing_only",
+          "seed": 9102,
+          "profit": 20150.642939253692,
+          "revenue": 27102.042939252915,
+          "costs": 6899.400000000355,
+          "completion_rate": 0.4021164021164021,
+          "orders_completed": 152,
+          "steps": 3000,
+          "peak_employees": 6,
+          "final_workers": 5,
+          "staffing_actions": [
+            {
+              "time": 0,
+              "action": 3
+            },
+            {
+              "time": 1,
+              "action": 1
+            },
+            {
+              "time": 2,
+              "action": 1
+            }
+          ],
+          "relocations": 9,
+          "wall_seconds": 14.427431772999967
+        },
+        {
+          "agent": "routing_only",
+          "seed": 9103,
+          "profit": 20534.6388690272,
+          "revenue": 27480.58886902643,
+          "costs": 6899.400000000355,
+          "completion_rate": 0.44502617801047123,
+          "orders_completed": 170,
+          "steps": 3000,
+          "peak_employees": 6,
+          "final_workers": 5,
+          "staffing_actions": [
+            {
+              "time": 0,
+              "action": 3
+            },
+            {
+              "time": 1,
+              "action": 1
+            },
+            {
+              "time": 2,
+              "action": 1
+            }
+          ],
+          "relocations": 10,
+          "wall_seconds": 6.884502550999969
+        },
+        {
+          "agent": "routing_only",
+          "seed": 9104,
+          "profit": 22428.59344379017,
+          "revenue": 29381.79344378935,
+          "costs": 6899.400000000355,
+          "completion_rate": 0.4217171717171717,
+          "orders_completed": 167,
+          "steps": 3000,
+          "peak_employees": 6,
+          "final_workers": 5,
+          "staffing_actions": [
+            {
+              "time": 0,
+              "action": 3
+            },
+            {
+              "time": 1,
+              "action": 1
+            },
+            {
+              "time": 2,
+              "action": 1
+            }
+          ],
+          "relocations": 9,
+          "wall_seconds": 12.506807820999938
+        },
+        {
+          "agent": "routing_only",
+          "seed": 9105,
+          "profit": 21910.17963308752,
+          "revenue": 28854.37963308665,
+          "costs": 6899.400000000355,
+          "completion_rate": 0.4067357512953368,
+          "orders_completed": 157,
+          "steps": 3000,
+          "peak_employees": 6,
+          "final_workers": 5,
+          "staffing_actions": [
+            {
+              "time": 0,
+              "action": 3
+            },
+            {
+              "time": 1,
+              "action": 1
+            },
+            {
+              "time": 2,
+              "action": 1
+            }
+          ],
+          "relocations": 9,
+          "wall_seconds": 7.107395594999957
+        },
+        {
+          "agent": "routing_only",
+          "seed": 9106,
+          "profit": 23026.308476651648,
+          "revenue": 29971.70847665071,
+          "costs": 6899.400000000355,
+          "completion_rate": 0.4154228855721393,
+          "orders_completed": 167,
+          "steps": 3000,
+          "peak_employees": 6,
+          "final_workers": 5,
+          "staffing_actions": [
+            {
+              "time": 0,
+              "action": 3
+            },
+            {
+              "time": 1,
+              "action": 1
+            },
+            {
+              "time": 2,
+              "action": 1
+            }
+          ],
+          "relocations": 9,
+          "wall_seconds": 13.943551170000092
+        },
+        {
+          "agent": "routing_only",
+          "seed": 9107,
+          "profit": 21707.845905131027,
+          "revenue": 28650.245905130152,
+          "costs": 6899.400000000355,
+          "completion_rate": 0.390745501285347,
+          "orders_completed": 152,
+          "steps": 3000,
+          "peak_employees": 6,
+          "final_workers": 5,
+          "staffing_actions": [
+            {
+              "time": 0,
+              "action": 3
+            },
+            {
+              "time": 1,
+              "action": 1
+            },
+            {
+              "time": 2,
+              "action": 1
+            }
+          ],
+          "relocations": 9,
+          "wall_seconds": 12.102113150999912
+        },
+        {
+          "agent": "routing_only",
+          "seed": 9108,
+          "profit": 21014.806745307003,
+          "revenue": 27999.65674530589,
+          "costs": 6899.400000000355,
+          "completion_rate": 0.3645833333333333,
+          "orders_completed": 140,
+          "steps": 3000,
+          "peak_employees": 6,
+          "final_workers": 5,
+          "staffing_actions": [
+            {
+              "time": 0,
+              "action": 3
+            },
+            {
+              "time": 1,
+              "action": 1
+            },
+            {
+              "time": 2,
+              "action": 1
+            }
+          ],
+          "relocations": 6,
+          "wall_seconds": 8.184282235000069
+        },
+        {
+          "agent": "routing_only",
+          "seed": 9109,
+          "profit": 20521.371641047943,
+          "revenue": 27471.521641047162,
+          "costs": 6899.400000000355,
+          "completion_rate": 0.35903614457831323,
+          "orders_completed": 149,
+          "steps": 3000,
+          "peak_employees": 6,
+          "final_workers": 5,
+          "staffing_actions": [
+            {
+              "time": 0,
+              "action": 3
+            },
+            {
+              "time": 1,
+              "action": 1
+            },
+            {
+              "time": 2,
+              "action": 1
+            }
+          ],
+          "relocations": 9,
+          "wall_seconds": 12.945366454999998
+        }
+      ],
+      "rank": 2
+    }
+  },
+  "paired_vs_previous": {}
+}

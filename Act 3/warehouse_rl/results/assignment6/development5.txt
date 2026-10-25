@@ -1,0 +1,12 @@
+staffing_only 8102 profit=45902.80 steps=3000
+skeleton_optimization 8102 profit=45309.24 steps=3000
+staffing_only 8101 profit=37876.38 steps=3000
+skeleton_optimization 8100 profit=42061.95 steps=3000
+staffing_only 8100 profit=43062.65 steps=3000
+value_focus 8100 profit=41751.50 steps=3000
+value_focus 8101 profit=38708.02 steps=3000
+skeleton_optimization 8101 profit=38549.87 steps=3000
+value_focus 8102 profit=45235.29 steps=3000
+1 staffing_only 42280.6087841506 [32170.277120942694, 52390.94044735851]
+2 skeleton_optimization 41973.6830850588 [33575.9313169212, 50371.434853196406]
+3 value_focus 41898.26951440225 [33784.804672462495, 50011.73435634201]

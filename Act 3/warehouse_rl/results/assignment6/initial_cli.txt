@@ -1,0 +1,21 @@
+Running benchmark with 10 episodes per agent...
+
+Testing greedy_std...
+Testing greedy_std... [10% complete]
+Testing greedy_std... [20% complete]
+Testing greedy_std... [30% complete]
+Testing greedy_std... [40% complete]
+Testing greedy_std... [50% complete]
+Testing greedy_std... [60% complete]
+Testing greedy_std... [70% complete]
+Testing greedy_std... [80% complete]
+Testing greedy_std... [90% complete]
+Testing greedy_std... [100% complete]
+Testing greedy_std... Done!                    
+  Average Reward: 3871.18
+  Average Profit: $3871.18 ± $1859.14
+  Average Completion Rate: 29.6% ± 1.8%
+
+Testing random_std...
+Testing random_std... [10% complete]
+Testing random_std... [20% complete]

@@ -1,0 +1,16 @@
+distance_focus 8101 profit=-1003.89 steps=706
+distance_focus 8100 profit=-1003.20 steps=1119
+distance_focus 8102 profit=-1003.96 steps=672
+skeleton_optimization 8101 profit=29201.75 steps=3000
+skeleton_optimization 8100 profit=32576.88 steps=3000
+skeleton_optimization 8102 profit=34980.23 steps=3000
+value_focus 8102 profit=34436.05 steps=3000
+value_focus 8100 profit=33017.37 steps=3000
+value_focus 8101 profit=30241.22 steps=3000
+staffing_only 8101 profit=37876.38 steps=3000
+staffing_only 8100 profit=43062.65 steps=3000
+staffing_only 8102 profit=45902.80 steps=3000
+1 staffing_only 42280.6087841506 [32170.277120942694, 52390.94044735851]
+2 value_focus 32564.880370531057 [27264.460661683697, 37865.300079378416]
+3 skeleton_optimization 32252.953815324803 [25041.923883903266, 39463.983746746344]
+4 distance_focus -1003.6821448814588 [-1004.7318256647374, -1002.6324640981803]

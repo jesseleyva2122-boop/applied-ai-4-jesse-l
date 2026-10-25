@@ -1,0 +1,28 @@
+socket(): Operation not permitted
+socket(): Operation not permitted
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5731:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
+Running warehouse simulation with aggressive_swap agent...
+
+--- Episode 1/1 ---
+Step 500: Profit=$3747.72, Queue=58, Employees=6
+Step 1000: Profit=$6182.27, Queue=94, Employees=6
+Step 1500: Profit=$10405.46, Queue=152, Employees=6
+Step 2000: Profit=$14777.33, Queue=210, Employees=6
+Episode 1 completed!
+  Total Reward: 14777.33
+  Final Profit: $14777.33
+  Completion Rate: 30.0%
+  Orders Completed: 93
+  Orders Cancelled: 7
+
+Displaying analytics for aggressive_swap agent...
+
+Analytics gallery displayed for aggressive_swap
+Click on any thumbnail to view the full chart, or use navigation buttons.

@@ -165,7 +165,7 @@ def run_demo(agent_name: str = "greedy", render: bool = True, episodes: int = 1)
     print(f"\nDisplaying analytics for {agent_name} agent...")
     analytics.show_analytics(agent_name)
 
-def run_benchmark(episodes: int = 10):
+def run_legacy_benchmark(episodes: int = 10):
     """Run benchmark comparison of all agents"""
     
     print(f"Running benchmark with {episodes} episodes per agent...")
@@ -245,6 +245,13 @@ def run_benchmark(episodes: int = 10):
     
     env.close()
     return results
+
+def run_benchmark(episodes: int = 10):
+    """Reproducible parallel comparison; fresh envs avoid cross-agent leakage."""
+    import subprocess
+    from pathlib import Path
+    subprocess.run([sys.executable, str(Path(__file__).with_name('evaluate_staffing.py')),
+                    '--episodes', str(episodes)], check=True)
 
 def main():
     parser = argparse.ArgumentParser(description="Warehouse RL Simulator")

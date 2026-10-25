@@ -49,6 +49,7 @@ class WarehouseEnv(gym.Env):
         self.total_revenue = 0.0
         self.total_costs = 0.0
         self.cumulative_profit = 0.0
+        self.order_assignment_policy = None
         
         # Relocation tracking
         self.relocations_history = []  # List of {item_type, from_pos, to_pos, timestep, status}
@@ -94,6 +95,7 @@ class WarehouseEnv(gym.Env):
     
     def reset(self, seed: Optional[int] = None, options: Optional[dict] = None) -> Tuple[Dict, Dict]:
         super().reset(seed=seed)
+        self.order_assignment_policy = None
         
         # Reset environment state
         self.current_timestep = 0
@@ -411,6 +413,24 @@ class WarehouseEnv(gym.Env):
     
     def _auto_assign_idle_employees(self):
         """Automatically assign idle workers (not managers) to pending orders"""
+        # Workers can become idle *inside* a step. Let a registered pickup
+        # policy match them at this point instead of silently using value-only
+        # fallback before the agent gets another decision. Defaults unchanged.
+        if callable(self.order_assignment_policy):
+            assignments = self.order_assignment_policy()
+            for i, employee_idx in enumerate(assignments):
+                if i >= len(self.order_queue.orders):
+                    break
+                if not (0 < employee_idx <= len(self.employees)):
+                    continue
+                employee = self.employees[employee_idx-1]
+                order = self.order_queue.orders[i]
+                if (employee.state == EmployeeState.IDLE and not employee.is_manager
+                        and employee.current_order_id is None and order.status == 'pending'):
+                    if employee.set_order(order.id, order.items):
+                        order.claim()
+                        self._assign_employee_to_order(employee, order)
+            return
         idle_employees = [emp for emp in self.employees if emp.state == EmployeeState.IDLE and not emp.is_manager]
         pending_orders = [order for order in self.order_queue.orders if order.status == "pending"]
         

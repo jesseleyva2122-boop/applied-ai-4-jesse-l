@@ -1,0 +1,22 @@
+staffing_only 9100 profit=47607.33 steps=3000
+staffing_only 9105 profit=45282.99 steps=3000
+staffing_only 9101 profit=44194.06 steps=3000
+staffing_only 9106 profit=45933.77 steps=3000
+staffing_only 9107 profit=45076.68 steps=3000
+staffing_only 9108 profit=43136.35 steps=3000
+staffing_only 9104 profit=41316.21 steps=3000
+routing_only 9103 profit=20534.64 steps=3000
+routing_only 9101 profit=20343.48 steps=3000
+routing_only 9100 profit=24637.20 steps=3000
+routing_only 9104 profit=22428.59 steps=3000
+routing_only 9102 profit=20150.64 steps=3000
+routing_only 9105 profit=21910.18 steps=3000
+staffing_only 9103 profit=43590.89 steps=3000
+staffing_only 9102 profit=44851.96 steps=3000
+routing_only 9108 profit=21014.81 steps=3000
+staffing_only 9109 profit=40029.38 steps=3000
+routing_only 9107 profit=21707.85 steps=3000
+routing_only 9106 profit=23026.31 steps=3000
+routing_only 9109 profit=20521.37 steps=3000
+1 staffing_only 44101.96378097 [42518.47348355535, 45685.454078384646]
+2 routing_only 21627.506975354176 [20605.60199689917, 22649.41195380918]

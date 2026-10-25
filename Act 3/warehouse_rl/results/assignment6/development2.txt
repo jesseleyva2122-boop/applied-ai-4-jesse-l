@@ -1,0 +1,20 @@
+previous_layout 8102 profit=22070.66 steps=3000
+previous_layout 8101 profit=20982.16 steps=3000
+previous_layout 8100 profit=21486.90 steps=3000
+skeleton_optimization 8100 profit=33401.47 steps=3000
+skeleton_optimization 8102 profit=30828.10 steps=3000
+skeleton_optimization 8101 profit=27959.96 steps=3000
+cap12 8101 profit=29834.53 steps=3000
+cap12 8100 profit=34165.47 steps=3000
+staffing_only 8100 profit=40863.93 steps=3000
+staffing_only 8101 profit=38772.95 steps=3000
+routing_only 8100 profit=14110.71 steps=3000
+routing_only 8101 profit=15974.31 steps=3000
+routing_only 8102 profit=14058.40 steps=3000
+cap12 8102 profit=34537.13 steps=3000
+staffing_only 8102 profit=39549.37 steps=3000
+1 staffing_only 39728.74871243436 [37103.09820209138, 42354.39922277734]
+2 cap12 32845.71005907287 [26351.255515900146, 39340.1646022456]
+3 skeleton_optimization 30729.845264409614 [23967.815667579314, 37491.874861239914]
+4 previous_layout 21513.240827560516 [20160.07038520985, 22866.411269911183]
+5 routing_only 14714.47452817211 [12003.386038090275, 17425.563018253946]
