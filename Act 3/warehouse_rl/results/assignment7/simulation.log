@@ -1,0 +1,225 @@
+Starting Multi-Objective Warehouse Optimization Demo...
+🎯 Multi-Objective Optimization Demo
+=====================================
+Running 5 episodes per configuration...
+Testing 20 different wage levels...
+Objectives: Profit Maximization vs Service Quality
+💰 Wage-based productivity tradeoffs:
+   • Blue points: Low wages, slow workers, low cost
+   • Red points: High wages, fast workers, high cost
+   • Pareto frontier shows optimal tradeoff curve
+
+Testing Wage_$0.15...
+Wage_$0.15... [20%]
+Wage_$0.15... [40%]
+Wage_$0.15... [60%]
+Wage_$0.15... [80%]
+Wage_$0.15... [100%]
+Wage_$0.15... Done! 
+  Avg Profit: $12034.7, Service Rate: 31.6%
+Testing Wage_$0.20...
+Wage_$0.20... [20%]
+Wage_$0.20... [40%]
+Wage_$0.20... [60%]
+Wage_$0.20... [80%]
+Wage_$0.20... [100%]
+Wage_$0.20... Done! 
+  Avg Profit: $13455.8, Service Rate: 34.8%
+Testing Wage_$0.25...
+Wage_$0.25... [20%]
+Wage_$0.25... [40%]
+Wage_$0.25... [60%]
+Wage_$0.25... [80%]
+Wage_$0.25... [100%]
+Wage_$0.25... Done! 
+  Avg Profit: $15879.0, Service Rate: 40.8%
+Testing Wage_$0.30...
+Wage_$0.30... [20%]
+Wage_$0.30... [40%]
+Wage_$0.30... [60%]
+Wage_$0.30... [80%]
+Wage_$0.30... [100%]
+Wage_$0.30... Done! 
+  Avg Profit: $13928.5, Service Rate: 47.2%
+Testing Wage_$0.40...
+Wage_$0.40... [20%]
+Wage_$0.40... [40%]
+Wage_$0.40... [60%]
+Wage_$0.40... [80%]
+Wage_$0.40... [100%]
+Wage_$0.40... Done! 
+  Avg Profit: $14205.2, Service Rate: 44.8%
+Testing Wage_$0.50...
+Wage_$0.50... [20%]
+Wage_$0.50... [40%]
+Wage_$0.50... [60%]
+Wage_$0.50... [80%]
+Wage_$0.50... [100%]
+Wage_$0.50... Done! 
+  Avg Profit: $11065.0, Service Rate: 49.1%
+Testing Wage_$0.60...
+Wage_$0.60... [20%]
+Wage_$0.60... [40%]
+Wage_$0.60... [60%]
+Wage_$0.60... [80%]
+Wage_$0.60... [100%]
+Wage_$0.60... Done! 
+  Avg Profit: $10557.3, Service Rate: 52.5%
+Testing Wage_$0.70...
+Wage_$0.70... [20%]
+Wage_$0.70... [40%]
+Wage_$0.70... [60%]
+Wage_$0.70... [80%]
+Wage_$0.70... [100%]
+Wage_$0.70... Done! 
+  Avg Profit: $13052.6, Service Rate: 50.1%
+Testing Wage_$0.80...
+Wage_$0.80... [20%]
+Wage_$0.80... [40%]
+Wage_$0.80... [60%]
+Wage_$0.80... [80%]
+Wage_$0.80... [100%]
+Wage_$0.80... Done! 
+  Avg Profit: $7112.9, Service Rate: 41.4%
+Testing Wage_$0.90...
+Wage_$0.90... [20%]
+Wage_$0.90... [40%]
+Wage_$0.90... [60%]
+Wage_$0.90... [80%]
+Wage_$0.90... [100%]
+Wage_$0.90... Done! 
+  Avg Profit: $7511.1, Service Rate: 47.3%
+Testing Wage_$1.00...
+Wage_$1.00... [20%]
+Wage_$1.00... [40%]
+Wage_$1.00... [60%]
+Wage_$1.00... [80%]
+Wage_$1.00... [100%]
+Wage_$1.00... Done! 
+  Avg Profit: $10359.4, Service Rate: 57.3%
+Testing Wage_$1.20...
+Wage_$1.20... [20%]
+Wage_$1.20... [40%]
+Wage_$1.20... [60%]
+Wage_$1.20... [80%]
+Wage_$1.20... [100%]
+Wage_$1.20... Done! 
+  Avg Profit: $5856.1, Service Rate: 51.4%
+Testing Wage_$1.40...
+Wage_$1.40... [20%]
+Wage_$1.40... [40%]
+Wage_$1.40... [60%]
+Wage_$1.40... [80%]
+Wage_$1.40... [100%]
+Wage_$1.40... Done! 
+  Avg Profit: $6058.0, Service Rate: 57.5%
+Testing Wage_$1.60...
+Wage_$1.60... [20%]
+Wage_$1.60... [40%]
+Wage_$1.60... [60%]
+Wage_$1.60... [80%]
+Wage_$1.60... [100%]
+Wage_$1.60... Done! 
+  Avg Profit: $953.1, Service Rate: 50.1%
+Testing Wage_$1.80...
+Wage_$1.80... [20%]
+Wage_$1.80... [40%]
+Wage_$1.80... [60%]
+Wage_$1.80... [80%]
+Wage_$1.80... [100%]
+Wage_$1.80... Done! 
+  Avg Profit: $4107.4, Service Rate: 65.9%
+Testing Wage_$2.00...
+Wage_$2.00... [20%]
+Wage_$2.00... [40%]
+Wage_$2.00... [60%]
+Wage_$2.00... [80%]
+Wage_$2.00... [100%]
+Wage_$2.00... Done! 
+  Avg Profit: $420.4, Service Rate: 62.1%
+Testing Wage_$2.50...
+Wage_$2.50... [20%]
+Wage_$2.50... [40%]
+Wage_$2.50... [60%]
+Wage_$2.50... [80%]
+Wage_$2.50... [100%]
+Wage_$2.50... Done! 
+  Avg Profit: $-1008.8, Service Rate: 66.1%
+Testing Wage_$3.00...
+Wage_$3.00... [20%]
+Wage_$3.00... [40%]
+Wage_$3.00... [60%]
+Wage_$3.00... [80%]
+Wage_$3.00... [100%]
+Wage_$3.00... Done! 
+  Avg Profit: $-1006.3, Service Rate: 69.9%
+Testing Wage_$3.50...
+Wage_$3.50... [20%]
+Wage_$3.50... [40%]
+Wage_$3.50... [60%]
+Wage_$3.50... [80%]
+Wage_$3.50... [100%]
+Wage_$3.50... Done! 
+  Avg Profit: $-1011.4, Service Rate: 57.6%
+Testing Wage_$4.00...
+Wage_$4.00... [20%]
+Wage_$4.00... [40%]
+Wage_$4.00... [60%]
+Wage_$4.00... [80%]
+Wage_$4.00... [100%]
+Wage_$4.00... Done! 
+  Avg Profit: $-1015.7, Service Rate: 48.9%
+
+======================================================================
+DETAILED WAGE-PRODUCTIVITY ANALYSIS
+======================================================================
+Wage Level   Profit       Service      Efficiency     
+----------------------------------------------------------------------
+$0.15        $   12035      31.6%          80.2
+$0.20        $   13456      34.8%          67.3
+$0.25        $   15879      40.8%          63.5
+$0.30        $   13928      47.2%          46.4
+$0.40        $   14205      44.8%          35.5
+$0.50        $   11065      49.1%          22.1
+$0.60        $   10557      52.5%          17.6
+$0.70        $   13053      50.1%          18.6
+$0.80        $    7113      41.4%           8.9
+$0.90        $    7511      47.3%           8.3
+$1.00        $   10359      57.3%          10.4
+$1.20        $    5856      51.4%           4.9
+$1.40        $    6058      57.5%           4.3
+$1.60        $     953      50.1%           0.6
+$1.80        $    4107      65.9%           2.3
+$2.00        $     420      62.1%           0.2
+$2.50        $   -1009      66.1%          -0.4
+$3.00        $   -1006      69.9%          -0.3
+$3.50        $   -1011      57.6%          -0.3
+$4.00        $   -1016      48.9%          -0.3
+
+======================================================================
+KEY INSIGHTS:
+======================================================================
+🏆 Highest Profit: $0.25 wage
+   Profit: $15879, Service: 40.8%
+
+⭐ Best Service: $3.00 wage
+   Profit: $-1006, Service: 69.9%
+
+💡 Most Efficient: $0.15 wage
+   Profit: $12035, Service: 31.6%
+   Efficiency: 80.2 profit per wage dollar
+
+🎯 Sweet Spot: $0.15 wage level
+   Optimal balance of productivity and cost
+
+📊 Modern wage-productivity visualization saved as 'wage_productivity_scatterplot.png'
+
+✅ Wage-productivity optimization demo completed!
+The scatterplot shows how different wage levels affect performance.
+
+Key takeaways:
+• Blue points (low wages): Cheaper workers but slower service
+• Red points (high wages): Expensive workers but faster service
+• Gold star shows the optimal wage level for maximum profit
+• Color gradient reveals the wage-productivity relationship
+• There's often a 'sweet spot' where moderate wages maximize efficiency

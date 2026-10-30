@@ -1,0 +1,922 @@
+{
+  "Wage_$0.15": {
+    "avg_profit": 12034.655269082776,
+    "avg_service_rate": 0.2956688562339962,
+    "avg_completion_rate": 0.3158269549095965,
+    "profit_std": 2314.3586927045217,
+    "service_std": 0.035404583092613774,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 13746.193004613911,
+        "service_rate": 0.27055635722764243,
+        "completion_rate": 0.33214285714285713,
+        "orders_completed": 93,
+        "orders_cancelled": 5
+      },
+      {
+        "profit": 9028.261009151884,
+        "service_rate": 0.30279326345896346,
+        "completion_rate": 0.2783882783882784,
+        "orders_completed": 76,
+        "orders_cancelled": 5
+      },
+      {
+        "profit": 10974.696505464337,
+        "service_rate": 0.26444177019211274,
+        "completion_rate": 0.3127413127413127,
+        "orders_completed": 81,
+        "orders_cancelled": 8
+      },
+      {
+        "profit": 15548.451453690246,
+        "service_rate": 0.36150647042092326,
+        "completion_rate": 0.3741721854304636,
+        "orders_completed": 113,
+        "orders_cancelled": 7
+      },
+      {
+        "profit": 10875.674372493491,
+        "service_rate": 0.2790464198703392,
+        "completion_rate": 0.28169014084507044,
+        "orders_completed": 80,
+        "orders_cancelled": 6
+      }
+    ]
+  },
+  "Wage_$0.20": {
+    "avg_profit": 13455.822065294818,
+    "avg_service_rate": 0.35677028498712854,
+    "avg_completion_rate": 0.3479570546945204,
+    "profit_std": 3348.603724354547,
+    "service_std": 0.05769768873994338,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 15413.078496582584,
+        "service_rate": 0.35375125351238434,
+        "completion_rate": 0.36013986013986016,
+        "orders_completed": 103,
+        "orders_cancelled": 7
+      },
+      {
+        "profit": 16502.728586330268,
+        "service_rate": 0.3915221371621719,
+        "completion_rate": 0.41237113402061853,
+        "orders_completed": 120,
+        "orders_cancelled": 9
+      },
+      {
+        "profit": 11897.628543725734,
+        "service_rate": 0.35014291334470005,
+        "completion_rate": 0.3249097472924188,
+        "orders_completed": 90,
+        "orders_cancelled": 2
+      },
+      {
+        "profit": 7574.356694765311,
+        "service_rate": 0.2574153519381048,
+        "completion_rate": 0.22857142857142856,
+        "orders_completed": 64,
+        "orders_cancelled": 12
+      },
+      {
+        "profit": 15891.318005070205,
+        "service_rate": 0.4310197689782818,
+        "completion_rate": 0.41379310344827586,
+        "orders_completed": 120,
+        "orders_cancelled": 5
+      }
+    ]
+  },
+  "Wage_$0.25": {
+    "avg_profit": 15878.951382676372,
+    "avg_service_rate": 0.3890813573658639,
+    "avg_completion_rate": 0.4078959312411232,
+    "profit_std": 1754.7529800708664,
+    "service_std": 0.029399082066497835,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 17495.431159315936,
+        "service_rate": 0.3746237650750294,
+        "completion_rate": 0.39805825242718446,
+        "orders_completed": 123,
+        "orders_cancelled": 7
+      },
+      {
+        "profit": 13176.211890386146,
+        "service_rate": 0.35875523374653984,
+        "completion_rate": 0.3649122807017544,
+        "orders_completed": 104,
+        "orders_cancelled": 6
+      },
+      {
+        "profit": 18058.736892896202,
+        "service_rate": 0.4361591703580615,
+        "completion_rate": 0.45364238410596025,
+        "orders_completed": 137,
+        "orders_cancelled": 2
+      },
+      {
+        "profit": 15078.59602532089,
+        "service_rate": 0.36586756386436575,
+        "completion_rate": 0.3564356435643564,
+        "orders_completed": 108,
+        "orders_cancelled": 7
+      },
+      {
+        "profit": 15585.780945462686,
+        "service_rate": 0.41000105378532287,
+        "completion_rate": 0.4664310954063604,
+        "orders_completed": 132,
+        "orders_cancelled": 12
+      }
+    ]
+  },
+  "Wage_$0.30": {
+    "avg_profit": 13928.498875676067,
+    "avg_service_rate": 0.443083013815468,
+    "avg_completion_rate": 0.47191455481930805,
+    "profit_std": 3316.0955775148227,
+    "service_std": 0.06240390890099171,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 12702.91325302746,
+        "service_rate": 0.41872490701661064,
+        "completion_rate": 0.42948717948717946,
+        "orders_completed": 134,
+        "orders_cancelled": 3
+      },
+      {
+        "profit": 12781.685293502858,
+        "service_rate": 0.3964971107973308,
+        "completion_rate": 0.43333333333333335,
+        "orders_completed": 130,
+        "orders_cancelled": 9
+      },
+      {
+        "profit": 15607.663895147523,
+        "service_rate": 0.40329633757393724,
+        "completion_rate": 0.4740484429065744,
+        "orders_completed": 137,
+        "orders_cancelled": 6
+      },
+      {
+        "profit": 19230.180342548672,
+        "service_rate": 0.5655082311360395,
+        "completion_rate": 0.6191950464396285,
+        "orders_completed": 200,
+        "orders_cancelled": 6
+      },
+      {
+        "profit": 9320.05159415381,
+        "service_rate": 0.4313884825534216,
+        "completion_rate": 0.40350877192982454,
+        "orders_completed": 115,
+        "orders_cancelled": 4
+      }
+    ]
+  },
+  "Wage_$0.40": {
+    "avg_profit": 14205.2035152478,
+    "avg_service_rate": 0.4774388552864057,
+    "avg_completion_rate": 0.44812222142954683,
+    "profit_std": 2280.3699108593487,
+    "service_std": 0.04723019425373039,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 18067.650890678742,
+        "service_rate": 0.5209311163139285,
+        "completion_rate": 0.5238095238095238,
+        "orders_completed": 165,
+        "orders_cancelled": 4
+      },
+      {
+        "profit": 13452.339017815453,
+        "service_rate": 0.5255658253775815,
+        "completion_rate": 0.43853820598006643,
+        "orders_completed": 132,
+        "orders_cancelled": 3
+      },
+      {
+        "profit": 11011.581587734487,
+        "service_rate": 0.3996384785796695,
+        "completion_rate": 0.37454545454545457,
+        "orders_completed": 103,
+        "orders_cancelled": 4
+      },
+      {
+        "profit": 14642.430375134718,
+        "service_rate": 0.45056326617530534,
+        "completion_rate": 0.42517006802721086,
+        "orders_completed": 125,
+        "orders_cancelled": 3
+      },
+      {
+        "profit": 13852.0157048756,
+        "service_rate": 0.49049558998554366,
+        "completion_rate": 0.47854785478547857,
+        "orders_completed": 145,
+        "orders_cancelled": 2
+      }
+    ]
+  },
+  "Wage_$0.50": {
+    "avg_profit": 11064.976858554688,
+    "avg_service_rate": 0.48628882664031775,
+    "avg_completion_rate": 0.49054612575453654,
+    "profit_std": 3096.4844657259937,
+    "service_std": 0.05332472699962863,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 5441.304137618244,
+        "service_rate": 0.42568422578774,
+        "completion_rate": 0.3875,
+        "orders_completed": 124,
+        "orders_cancelled": 5
+      },
+      {
+        "profit": 11747.413174566807,
+        "service_rate": 0.48415797601075045,
+        "completion_rate": 0.49146757679180886,
+        "orders_completed": 144,
+        "orders_cancelled": 3
+      },
+      {
+        "profit": 11894.556521434577,
+        "service_rate": 0.4291460615403671,
+        "completion_rate": 0.4174174174174174,
+        "orders_completed": 139,
+        "orders_cancelled": 6
+      },
+      {
+        "profit": 11289.329999669135,
+        "service_rate": 0.5395389376111865,
+        "completion_rate": 0.5775577557755776,
+        "orders_completed": 175,
+        "orders_cancelled": 5
+      },
+      {
+        "profit": 14952.280459484673,
+        "service_rate": 0.5529169322515449,
+        "completion_rate": 0.5787878787878787,
+        "orders_completed": 191,
+        "orders_cancelled": 1
+      }
+    ]
+  },
+  "Wage_$0.60": {
+    "avg_profit": 10557.257680350614,
+    "avg_service_rate": 0.5168882919577983,
+    "avg_completion_rate": 0.5254838009341776,
+    "profit_std": 2398.34690935374,
+    "service_std": 0.033098968258317776,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 7360.883145442128,
+        "service_rate": 0.4836263333330848,
+        "completion_rate": 0.3908450704225352,
+        "orders_completed": 111,
+        "orders_cancelled": 2
+      },
+      {
+        "profit": 11431.099834832108,
+        "service_rate": 0.5558568569899586,
+        "completion_rate": 0.5521885521885522,
+        "orders_completed": 164,
+        "orders_cancelled": 2
+      },
+      {
+        "profit": 13146.177519537767,
+        "service_rate": 0.4864960782860493,
+        "completion_rate": 0.5094339622641509,
+        "orders_completed": 162,
+        "orders_cancelled": 3
+      },
+      {
+        "profit": 12773.738623860776,
+        "service_rate": 0.5577304402467556,
+        "completion_rate": 0.6843853820598007,
+        "orders_completed": 206,
+        "orders_cancelled": 3
+      },
+      {
+        "profit": 8074.389278080298,
+        "service_rate": 0.5007317509331433,
+        "completion_rate": 0.49056603773584906,
+        "orders_completed": 156,
+        "orders_cancelled": 7
+      }
+    ]
+  },
+  "Wage_$0.70": {
+    "avg_profit": 13052.556971239359,
+    "avg_service_rate": 0.5039499185173117,
+    "avg_completion_rate": 0.5006148582745021,
+    "profit_std": 3333.0376025829164,
+    "service_std": 0.06657253936405921,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 12899.058390306536,
+        "service_rate": 0.5170796341407906,
+        "completion_rate": 0.49508196721311476,
+        "orders_completed": 151,
+        "orders_cancelled": 1
+      },
+      {
+        "profit": 13242.069956908977,
+        "service_rate": 0.5298762604663578,
+        "completion_rate": 0.5126582278481012,
+        "orders_completed": 162,
+        "orders_cancelled": 4
+      },
+      {
+        "profit": 14233.659804373425,
+        "service_rate": 0.4851814907547497,
+        "completion_rate": 0.5,
+        "orders_completed": 159,
+        "orders_cancelled": 1
+      },
+      {
+        "profit": 17608.80862119445,
+        "service_rate": 0.5956807876740546,
+        "completion_rate": 0.6710097719869706,
+        "orders_completed": 206,
+        "orders_cancelled": 4
+      },
+      {
+        "profit": 7279.188083413399,
+        "service_rate": 0.39193141955060634,
+        "completion_rate": 0.32432432432432434,
+        "orders_completed": 96,
+        "orders_cancelled": 5
+      }
+    ]
+  },
+  "Wage_$0.80": {
+    "avg_profit": 7112.881618672352,
+    "avg_service_rate": 0.45855223725906474,
+    "avg_completion_rate": 0.41385354753143516,
+    "profit_std": 4360.71598005476,
+    "service_std": 0.048387463540915276,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 7264.263929605543,
+        "service_rate": 0.45711111273499805,
+        "completion_rate": 0.4181184668989547,
+        "orders_completed": 120,
+        "orders_cancelled": 2
+      },
+      {
+        "profit": 10994.426763663383,
+        "service_rate": 0.5457101738359579,
+        "completion_rate": 0.4891640866873065,
+        "orders_completed": 158,
+        "orders_cancelled": 1
+      },
+      {
+        "profit": 10849.957675732463,
+        "service_rate": 0.44749544429752425,
+        "completion_rate": 0.4894366197183099,
+        "orders_completed": 139,
+        "orders_cancelled": 5
+      },
+      {
+        "profit": 7460.945844698726,
+        "service_rate": 0.4457052677149358,
+        "completion_rate": 0.3561643835616438,
+        "orders_completed": 104,
+        "orders_cancelled": 5
+      },
+      {
+        "profit": -1005.1861203383614,
+        "service_rate": 0.39673918771190775,
+        "completion_rate": 0.3163841807909605,
+        "orders_completed": 56,
+        "orders_cancelled": 3
+      }
+    ]
+  },
+  "Wage_$0.90": {
+    "avg_profit": 7511.106763677887,
+    "avg_service_rate": 0.4925983841048934,
+    "avg_completion_rate": 0.4726486284680047,
+    "profit_std": 4453.878391717418,
+    "service_std": 0.09305059772630654,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 8834.964630772205,
+        "service_rate": 0.48246859528553027,
+        "completion_rate": 0.4065573770491803,
+        "orders_completed": 124,
+        "orders_cancelled": 3
+      },
+      {
+        "profit": 10194.886269291253,
+        "service_rate": 0.5761571939908087,
+        "completion_rate": 0.5949367088607594,
+        "orders_completed": 188,
+        "orders_cancelled": 1
+      },
+      {
+        "profit": 12665.57831554114,
+        "service_rate": 0.591530785476839,
+        "completion_rate": 0.6895424836601307,
+        "orders_completed": 211,
+        "orders_cancelled": 4
+      },
+      {
+        "profit": 6223.165919398942,
+        "service_rate": 0.48246217085002163,
+        "completion_rate": 0.44333333333333336,
+        "orders_completed": 133,
+        "orders_cancelled": 6
+      },
+      {
+        "profit": -363.06131661410575,
+        "service_rate": 0.3303731749212674,
+        "completion_rate": 0.22887323943661972,
+        "orders_completed": 65,
+        "orders_cancelled": 7
+      }
+    ]
+  },
+  "Wage_$1.00": {
+    "avg_profit": 10359.389286417327,
+    "avg_service_rate": 0.5607359621628307,
+    "avg_completion_rate": 0.5734048348878746,
+    "profit_std": 2793.6590845433307,
+    "service_std": 0.03342442427725452,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 13036.765309686472,
+        "service_rate": 0.5859858389202184,
+        "completion_rate": 0.6211180124223602,
+        "orders_completed": 200,
+        "orders_cancelled": 5
+      },
+      {
+        "profit": 10704.43992743843,
+        "service_rate": 0.5851412838892455,
+        "completion_rate": 0.6242038216560509,
+        "orders_completed": 196,
+        "orders_cancelled": 6
+      },
+      {
+        "profit": 13221.419182891757,
+        "service_rate": 0.5769820893609952,
+        "completion_rate": 0.5692307692307692,
+        "orders_completed": 185,
+        "orders_cancelled": 5
+      },
+      {
+        "profit": 9182.185574183432,
+        "service_rate": 0.49682277621537824,
+        "completion_rate": 0.5129032258064516,
+        "orders_completed": 159,
+        "orders_cancelled": 1
+      },
+      {
+        "profit": 5652.136437886549,
+        "service_rate": 0.5587478224283169,
+        "completion_rate": 0.539568345323741,
+        "orders_completed": 150,
+        "orders_cancelled": 4
+      }
+    ]
+  },
+  "Wage_$1.20": {
+    "avg_profit": 5856.136855871404,
+    "avg_service_rate": 0.5060328525442873,
+    "avg_completion_rate": 0.5142709546740225,
+    "profit_std": 3788.3650358538594,
+    "service_std": 0.031539632114442044,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 9636.181788271335,
+        "service_rate": 0.559072440553719,
+        "completion_rate": 0.5903614457831325,
+        "orders_completed": 196,
+        "orders_cancelled": 3
+      },
+      {
+        "profit": 8124.220986511864,
+        "service_rate": 0.47946421896716174,
+        "completion_rate": 0.5,
+        "orders_completed": 152,
+        "orders_cancelled": 3
+      },
+      {
+        "profit": -1007.12389714342,
+        "service_rate": 0.4688907475815864,
+        "completion_rate": 0.48466257668711654,
+        "orders_completed": 79,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": 4700.207432253582,
+        "service_rate": 0.5143833154794024,
+        "completion_rate": 0.46827794561933533,
+        "orders_completed": 155,
+        "orders_cancelled": 8
+      },
+      {
+        "profit": 7827.197969463658,
+        "service_rate": 0.5083535401395671,
+        "completion_rate": 0.528052805280528,
+        "orders_completed": 160,
+        "orders_cancelled": 7
+      }
+    ]
+  },
+  "Wage_$1.40": {
+    "avg_profit": 6058.014748786763,
+    "avg_service_rate": 0.5550818252625553,
+    "avg_completion_rate": 0.5754936352135489,
+    "profit_std": 1524.564290256543,
+    "service_std": 0.030173134355877033,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 7057.60647800427,
+        "service_rate": 0.5621499568975963,
+        "completion_rate": 0.5828025477707006,
+        "orders_completed": 183,
+        "orders_cancelled": 2
+      },
+      {
+        "profit": 5416.820037575458,
+        "service_rate": 0.5912744079591492,
+        "completion_rate": 0.5787781350482315,
+        "orders_completed": 180,
+        "orders_cancelled": 1
+      },
+      {
+        "profit": 3592.1978239220907,
+        "service_rate": 0.5056730252338626,
+        "completion_rate": 0.4774774774774775,
+        "orders_completed": 159,
+        "orders_cancelled": 6
+      },
+      {
+        "profit": 8089.043650656331,
+        "service_rate": 0.5772882968393517,
+        "completion_rate": 0.6490683229813664,
+        "orders_completed": 209,
+        "orders_cancelled": 4
+      },
+      {
+        "profit": 6134.405753775673,
+        "service_rate": 0.5390234393828173,
+        "completion_rate": 0.5893416927899686,
+        "orders_completed": 188,
+        "orders_cancelled": 4
+      }
+    ]
+  },
+  "Wage_$1.60": {
+    "avg_profit": 953.1386110834267,
+    "avg_service_rate": 0.5102537517375387,
+    "avg_completion_rate": 0.5009680813127179,
+    "profit_std": 2177.4672380896113,
+    "service_std": 0.04559789942353654,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": -1003.7323863068615,
+        "service_rate": 0.4689713080014285,
+        "completion_rate": 0.41522491349480967,
+        "orders_completed": 120,
+        "orders_cancelled": 4
+      },
+      {
+        "profit": 1820.6771347398578,
+        "service_rate": 0.5412944762539682,
+        "completion_rate": 0.49683544303797467,
+        "orders_completed": 157,
+        "orders_cancelled": 7
+      },
+      {
+        "profit": -1012.5919238194318,
+        "service_rate": 0.4931900656030936,
+        "completion_rate": 0.5608108108108109,
+        "orders_completed": 83,
+        "orders_cancelled": 1
+      },
+      {
+        "profit": 4782.196689775093,
+        "service_rate": 0.5833375635014822,
+        "completion_rate": 0.5818181818181818,
+        "orders_completed": 192,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": 179.1435410284754,
+        "service_rate": 0.4644753453277213,
+        "completion_rate": 0.4501510574018127,
+        "orders_completed": 149,
+        "orders_cancelled": 4
+      }
+    ]
+  },
+  "Wage_$1.80": {
+    "avg_profit": 4107.369273485562,
+    "avg_service_rate": 0.617202749341104,
+    "avg_completion_rate": 0.6588538180789106,
+    "profit_std": 1061.3927668581687,
+    "service_std": 0.011269417854149337,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": 3629.8858159287774,
+        "service_rate": 0.6098620868456435,
+        "completion_rate": 0.5868263473053892,
+        "orders_completed": 196,
+        "orders_cancelled": 2
+      },
+      {
+        "profit": 4476.998229294041,
+        "service_rate": 0.6241547710823367,
+        "completion_rate": 0.6686046511627907,
+        "orders_completed": 230,
+        "orders_cancelled": 2
+      },
+      {
+        "profit": 4916.136951293581,
+        "service_rate": 0.6334372431456003,
+        "completion_rate": 0.7374631268436578,
+        "orders_completed": 250,
+        "orders_cancelled": 1
+      },
+      {
+        "profit": 5234.818672592187,
+        "service_rate": 0.6008040147966514,
+        "completion_rate": 0.6336633663366337,
+        "orders_completed": 192,
+        "orders_cancelled": 4
+      },
+      {
+        "profit": 2279.006698319224,
+        "service_rate": 0.6177556308352876,
+        "completion_rate": 0.6677115987460815,
+        "orders_completed": 213,
+        "orders_cancelled": 2
+      }
+    ]
+  },
+  "Wage_$2.00": {
+    "avg_profit": 420.3613283166625,
+    "avg_service_rate": 0.5799611232679752,
+    "avg_completion_rate": 0.6212632092468572,
+    "profit_std": 2853.187124993386,
+    "service_std": 0.04847164377348394,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": -1011.8354340954089,
+        "service_rate": 0.5316890264905525,
+        "completion_rate": 0.59375,
+        "orders_completed": 76,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1002.6452440510847,
+        "service_rate": 0.5673110163490312,
+        "completion_rate": 0.6088888888888889,
+        "orders_completed": 137,
+        "orders_cancelled": 1
+      },
+      {
+        "profit": -1002.9456717236638,
+        "service_rate": 0.5415502245668329,
+        "completion_rate": 0.5824915824915825,
+        "orders_completed": 173,
+        "orders_cancelled": 6
+      },
+      {
+        "profit": -1007.4986146201057,
+        "service_rate": 0.591889424883703,
+        "completion_rate": 0.5642023346303502,
+        "orders_completed": 145,
+        "orders_cancelled": 4
+      },
+      {
+        "profit": 6126.731606073576,
+        "service_rate": 0.6673659240497564,
+        "completion_rate": 0.7569832402234636,
+        "orders_completed": 271,
+        "orders_cancelled": 4
+      }
+    ]
+  },
+  "Wage_$2.50": {
+    "avg_profit": -1008.8168332587982,
+    "avg_service_rate": 0.45939769213787585,
+    "avg_completion_rate": 0.6612750947294339,
+    "profit_std": 6.701953835497689,
+    "service_std": 0.10781972008108681,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": -1000.1583354589105,
+        "service_rate": 0.4533902240009058,
+        "completion_rate": 0.6818181818181818,
+        "orders_completed": 75,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1011.4022374758814,
+        "service_rate": 0.3151948051948052,
+        "completion_rate": 0.6285714285714286,
+        "orders_completed": 44,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1001.7701114776313,
+        "service_rate": 0.6414519777649227,
+        "completion_rate": 0.6153846153846154,
+        "orders_completed": 136,
+        "orders_cancelled": 2
+      },
+      {
+        "profit": -1017.2748928704009,
+        "service_rate": 0.4861613043125648,
+        "completion_rate": 0.6829268292682927,
+        "orders_completed": 56,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1013.478589011167,
+        "service_rate": 0.40079014941618063,
+        "completion_rate": 0.6976744186046512,
+        "orders_completed": 60,
+        "orders_cancelled": 0
+      }
+    ]
+  },
+  "Wage_$3.00": {
+    "avg_profit": -1006.321150516399,
+    "avg_service_rate": 0.4107418507668047,
+    "avg_completion_rate": 0.6987960323326177,
+    "profit_std": 5.845722341231327,
+    "service_std": 0.11159988260814308,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": -1010.633676624918,
+        "service_rate": 0.28272206887189466,
+        "completion_rate": 0.625,
+        "orders_completed": 35,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1000.8101081888528,
+        "service_rate": 0.5681298075755623,
+        "completion_rate": 0.8148148148148148,
+        "orders_completed": 88,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1002.722448655294,
+        "service_rate": 0.3661904761904762,
+        "completion_rate": 0.6883116883116883,
+        "orders_completed": 53,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1015.6995723670601,
+        "service_rate": 0.3208333333333333,
+        "completion_rate": 0.6666666666666666,
+        "orders_completed": 32,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1001.7399467458696,
+        "service_rate": 0.5158335678627572,
+        "completion_rate": 0.6991869918699187,
+        "orders_completed": 86,
+        "orders_cancelled": 1
+      }
+    ]
+  },
+  "Wage_$3.50": {
+    "avg_profit": -1011.4161688185271,
+    "avg_service_rate": 0.2579496903188472,
+    "avg_completion_rate": 0.5762531404846074,
+    "profit_std": 6.79247291324823,
+    "service_std": 0.08764474576911349,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": -1024.634131325741,
+        "service_rate": 0.20138888888888887,
+        "completion_rate": 0.5116279069767442,
+        "orders_completed": 22,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1006.3045657271604,
+        "service_rate": 0.4239054982512827,
+        "completion_rate": 0.7108433734939759,
+        "orders_completed": 59,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1006.6567767482841,
+        "service_rate": 0.17407407407407408,
+        "completion_rate": 0.5555555555555556,
+        "orders_completed": 25,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1008.8503527256845,
+        "service_rate": 0.25757575757575757,
+        "completion_rate": 0.5263157894736842,
+        "orders_completed": 20,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1010.6350175657664,
+        "service_rate": 0.2328042328042328,
+        "completion_rate": 0.5769230769230769,
+        "orders_completed": 15,
+        "orders_cancelled": 0
+      }
+    ]
+  },
+  "Wage_$4.00": {
+    "avg_profit": -1015.6614352002327,
+    "avg_service_rate": 0.20500765471353705,
+    "avg_completion_rate": 0.4894588744588744,
+    "profit_std": 7.141899359631716,
+    "service_std": 0.03533914819016143,
+    "profit_weight": 0.5,
+    "service_weight": 0.5,
+    "all_results": [
+      {
+        "profit": -1020.6008720873652,
+        "service_rate": 0.21388888888888888,
+        "completion_rate": 0.45714285714285713,
+        "orders_completed": 16,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1020.0934739567184,
+        "service_rate": 0.14705882352941177,
+        "completion_rate": 0.375,
+        "orders_completed": 12,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1013.7912594250017,
+        "service_rate": 0.18736383442265794,
+        "completion_rate": 0.5,
+        "orders_completed": 20,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1002.440824317688,
+        "service_rate": 0.25,
+        "completion_rate": 0.5151515151515151,
+        "orders_completed": 17,
+        "orders_cancelled": 0
+      },
+      {
+        "profit": -1021.3807462143901,
+        "service_rate": 0.2267267267267267,
+        "completion_rate": 0.6,
+        "orders_completed": 30,
+        "orders_cancelled": 0
+      }
+    ]
+  }
+}
